@@ -39,7 +39,7 @@ export async function GET(req: Request) {
         }
       });
 
-      bookedSlots = bookedAppointments.map(a => a.timeSlot);
+      bookedSlots = bookedAppointments.map((a: { timeSlot: string }) => a.timeSlot);
     } catch (dbError) {
       console.warn("Could not fetch booked slots from database, showing all as available:", (dbError as Error).message);
     }
