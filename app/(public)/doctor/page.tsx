@@ -226,7 +226,7 @@ export default function DoctorProfile() {
               Book Your Consultation
             </Link>
             <a 
-              href="https://wa.me/919034676885?text=Hello%20Dr.%20Sushila%20Singh,%20I'd%20like%20to%20chat%20about%20my%20health."
+              href="https://wa.me/917202844844?text=Hello%20Dr.%20Sushila%20Singh,%20I'd%20like%20to%20chat%20about%20my%20health."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-surface/10 backdrop-blur-md border border-surface/20 text-on-primary px-8 py-4 rounded-xl font-bold hover:bg-surface/20 transition-all flex items-center justify-center gap-2"
