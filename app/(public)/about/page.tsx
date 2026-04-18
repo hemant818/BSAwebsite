@@ -104,6 +104,70 @@ export default function About() {
         </div>
       </section>
 
+      {/* Why BSA Founded Section */}
+      <section className="py-24 px-8 relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/5 via-transparent to-tertiary/5 pointer-events-none"></div>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <span className="font-label text-tertiary font-bold tracking-[0.2em] mb-4 block">OUR FOUNDATION</span>
+            <h2 className="font-headline text-4xl md:text-5xl text-on-background">Why BSA Was Founded</h2>
+            <div className="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {[
+              {
+                icon: "spa",
+                title: "Holistic Healing",
+                desc: "To provide holistic healing that balances mind, body and soul through practices like Panchkarma, herbs and yoga.",
+                color: "bg-primary",
+              },
+              {
+                icon: "health_and_safety",
+                title: "Preventive Care",
+                desc: "To promote preventive care and meet growing global demand for natural wellness.",
+                color: "bg-tertiary",
+              },
+              {
+                icon: "psychology",
+                title: "Root-Cause Treatment",
+                desc: "To treat lifestyle disorders, stress and chronic ailments from their root causes rather than just managing symptoms.",
+                color: "bg-primary",
+              },
+              {
+                icon: "sync_alt",
+                title: "Bridging Tradition & Modernity",
+                desc: "To bridge tradition and modern wellness needs — making ancient Ayurvedic wisdom accessible and relevant for today's world.",
+                color: "bg-tertiary",
+              },
+            ].map((item, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.12 }}
+                whileHover={{ y: -6, boxShadow: "0 20px 40px rgba(0,0,0,0.08)" }}
+                className="bg-surface-container-lowest p-8 md:p-10 rounded-3xl shadow-md flex gap-6 items-start transition-all duration-300 border border-outline-variant/10"
+              >
+                <div className={`w-14 h-14 ${item.color} rounded-2xl flex items-center justify-center flex-shrink-0 shadow-lg`}>
+                  <span className="material-symbols-outlined text-white text-2xl">{item.icon}</span>
+                </div>
+                <div>
+                  <h3 className="font-headline text-xl font-bold text-on-background mb-2">{item.title}</h3>
+                  <p className="text-on-surface-variant leading-relaxed">{item.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* What We Stand For Section */}
       <section className="py-24 px-8 max-w-7xl mx-auto">
         <motion.div

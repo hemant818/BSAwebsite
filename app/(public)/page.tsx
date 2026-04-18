@@ -356,6 +356,88 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Our Core Values */}
+      <section className="px-8 py-32 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-surface via-primary/5 to-surface pointer-events-none"></div>
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center space-y-4 mb-20">
+            <motion.span
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="text-primary font-label tracking-[0.2em] font-bold uppercase text-xs"
+            >
+              WHAT DRIVES US
+            </motion.span>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="font-headline text-4xl md:text-5xl"
+            >
+              Our Core Values
+            </motion.h2>
+            <motion.div
+              initial={{ scaleX: 0 }}
+              whileInView={{ scaleX: 1 }}
+              viewport={{ once: true }}
+              className="w-24 h-1 bg-tertiary-container mx-auto mt-4 rounded-full"
+            ></motion.div>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: "verified",
+                title: "Authenticity & Integrity",
+                desc: "Staying true to the classical principles of Ayurveda while maintaining the highest ethical standards in every interaction.",
+              },
+              {
+                icon: "diamond",
+                title: "Quality & Purity (Sattva)",
+                desc: "Ensuring every herb, treatment, and formulation meets the purest standards — rooted in the Sattvic principle of clarity and goodness.",
+              },
+              {
+                icon: "eco",
+                title: "Sustainability & Respect for Nature",
+                desc: "Honoring nature as the source of all healing. Our practices are ecologically conscious and aligned with environmental harmony.",
+              },
+              {
+                icon: "volunteer_activism",
+                title: "Seva (Community Service)",
+                desc: "A commitment to improving the well-being of others and contributing positively to society through accessible and compassionate care.",
+              },
+              {
+                icon: "handshake",
+                title: "Transparency & Trust",
+                desc: "Building lasting relationships through honest communication, transparent practices, and unwavering dedication to patient welfare.",
+              },
+              {
+                icon: "balance",
+                title: "Holistic Well-being & Balance",
+                desc: "Promoting a balanced lifestyle — not just treating symptoms but supporting the harmony of body, mind and soul for lasting wellness.",
+              },
+            ].map((value, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                whileHover={{ y: -8 }}
+                className="bg-surface-container-lowest p-8 rounded-3xl shadow-lg group hover:bg-primary transition-colors duration-500 border border-outline-variant/10"
+              >
+                <div className="w-14 h-14 rounded-2xl bg-primary/10 group-hover:bg-on-primary/20 flex items-center justify-center mb-6 transition-colors">
+                  <span className="material-symbols-outlined text-primary group-hover:text-on-primary text-2xl">{value.icon}</span>
+                </div>
+                <h3 className="font-headline text-xl font-bold mb-3 group-hover:text-on-primary transition-colors">{value.title}</h3>
+                <p className="text-sm text-on-surface-variant group-hover:text-on-primary/80 leading-relaxed transition-colors">{value.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
     </motion.div>
   );
 }
