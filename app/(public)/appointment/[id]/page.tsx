@@ -93,7 +93,7 @@ export default async function AppointmentSuccessPage({ params }: { params: { id:
             </button>
           </Link>
           <a
-            href={`https://wa.me/917202844844?text=Hi%2C%20I%20just%20booked%20an%20appointment%20(ID%3A%20${bookingId}).%20Please%20confirm.`}
+            href={`https://wa.me/919510250323?text=Hi%2C%20I%20just%20booked%20an%20appointment%20(ID%3A%20${bookingId}).%20Please%20confirm.`}
             target="_blank"
             rel="noopener noreferrer"
           >

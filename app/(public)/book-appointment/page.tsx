@@ -4,12 +4,11 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const DOCTOR_WHATSAPP = "917202844844"; // Doctor's WhatsApp number
+const DOCTOR_WHATSAPP = "919510250323"; // Doctor's WhatsApp number
 
 const TIME_SLOTS = [
-  "09:00 AM", "09:30 AM", "10:00 AM", "10:30 AM",
-  "11:00 AM", "11:30 AM", "04:00 PM", "04:30 PM",
-  "05:00 PM", "05:30 PM",
+  "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM",
+  "04:00 PM", "04:30 PM", "05:00 PM", "05:30 PM",
 ];
 
 function getTodayDate() {
@@ -313,7 +312,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
                 </div>
                 <div className="flex gap-3 items-center">
                   <span className="material-symbols-outlined text-primary text-lg">call</span>
-                  <a href="tel:+917202844844" className="text-on-surface-variant hover:text-primary">+91 7202844844</a>
+                  <a href="tel:+919510250323" className="text-on-surface-variant hover:text-primary">+91 9510250323</a>
                 </div>
                 <div className="flex gap-3 items-center">
                   <span className="material-symbols-outlined text-primary text-lg">mail</span>
@@ -322,11 +321,11 @@ _Please confirm this appointment at your earliest. Thank you!_`;
               </div>
               <div className="pt-4 border-t border-outline-variant/20 space-y-2 text-sm">
                 <div className="flex justify-between items-start gap-4">
-                  <span className="font-medium">Wed, Thu, Fri</span>
-                  <span className="text-on-surface-variant text-right">9:00 AM – 12:00 PM<br />4:00 PM – 6:00 PM</span>
+                  <span className="font-medium">Monday – Friday</span>
+                  <span className="text-on-surface-variant text-right">10:00 AM – 12:00 PM<br />4:00 PM – 6:00 PM</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="font-medium italic text-primary">Other Days</span>
+                  <span className="font-medium italic text-primary">Sat & Sun</span>
                   <span className="text-on-surface-variant mt-1">Closed</span>
                 </div>
               </div>

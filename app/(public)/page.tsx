@@ -225,7 +225,7 @@ export default function Home() {
               {
                 title: "Panchakarma",
                 desc: "A comprehensive detoxification program designed to flush out deep-seated toxins.",
-                img: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=800&auto=format&fit=crop"
+                img: "https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=800&auto=format&fit=crop"
               },
               {
                 title: "Hair & Scalp",

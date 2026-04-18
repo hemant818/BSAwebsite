@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
           {/* WhatsApp CTA */}
           <a
-            href="https://wa.me/917202844844?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Sushila%20Singh."
+            href="https://wa.me/919510250323?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Sushila%20Singh."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#128C7E] transition-colors"
@@ -45,8 +45,8 @@ export default function Footer() {
             </div>
             <div className="flex gap-3 items-center text-sm">
               <span className="material-symbols-outlined text-primary text-base">call</span>
-              <a href="tel:+917202844844" className="text-on-surface-variant hover:text-primary transition-colors">
-                +91 7202844844
+              <a href="tel:+919510250323" className="text-on-surface-variant hover:text-primary transition-colors">
+                +91 9510250323
               </a>
             </div>
             <div className="flex gap-3 items-center text-sm">
@@ -61,11 +61,11 @@ export default function Footer() {
           <h4 className="font-bold text-on-surface">Clinic Hours</h4>
           <div className="space-y-3 text-sm">
             <div className="flex justify-between items-start gap-4">
-              <span className="font-medium text-on-surface">Wed, Thu, Fri</span>
-              <span className="text-on-surface-variant text-right">9:00 AM – 12:00 PM<br />4:00 PM – 6:00 PM</span>
+              <span className="font-medium text-on-surface">Monday – Friday</span>
+              <span className="text-on-surface-variant text-right">10:00 AM – 12:00 PM<br />4:00 PM – 6:00 PM</span>
             </div>
             <div className="flex justify-between pt-1">
-              <span className="font-medium text-primary italic">Other Days</span>
+              <span className="font-medium text-primary italic">Sat & Sun</span>
               <span className="text-on-surface-variant">Closed</span>
             </div>
           </div>

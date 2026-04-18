@@ -123,12 +123,23 @@ export default function DoctorProfile() {
               <div className="p-6 bg-surface-container-low rounded-2xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-3xl mb-3">school</span>
                 <h4 className="font-headline text-lg font-bold mb-2">Education</h4>
-                <p className="text-sm text-on-surface-variant">BAMS & MD (Panchkarma) from Gujarat Ayurved University, Jamnagar.</p>
+                <p className="text-sm text-on-surface-variant">BAMS, CRAV, MD, PhD Scholar</p>
               </div>
               <div className="p-6 bg-surface-container-low rounded-2xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-3xl mb-3">clinical_notes</span>
                 <h4 className="font-headline text-lg font-bold mb-2">Specialization</h4>
-                <p className="text-sm text-on-surface-variant">Metabolic Disorders, Spine Health, and Stress Management.</p>
+                <ul className="text-sm text-on-surface-variant space-y-1.5 list-none">
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Neuromusculoskeletal disease</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Metabolic disorders / lifestyle disorders</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Hormonal imbalances</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Anxiety, stress and depression</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Gynecological disorders</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Male / female infertility</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Skin disease</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Cosmetic care</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Hair problems</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Nadi Pariksha (Pulse Diagnosis)</li>
+                </ul>
               </div>
             </div>
           </motion.div>
@@ -226,7 +237,7 @@ export default function DoctorProfile() {
               Book Your Consultation
             </Link>
             <a 
-              href="https://wa.me/917202844844?text=Hello%20Dr.%20Sushila%20Singh,%20I'd%20like%20to%20chat%20about%20my%20health."
+              href="https://wa.me/919510250323?text=Hello%20Dr.%20Sushila%20Singh,%20I'd%20like%20to%20chat%20about%20my%20health."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-surface/10 backdrop-blur-md border border-surface/20 text-on-primary px-8 py-4 rounded-xl font-bold hover:bg-surface/20 transition-all flex items-center justify-center gap-2"

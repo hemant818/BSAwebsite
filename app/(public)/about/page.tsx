@@ -59,7 +59,7 @@ export default function About() {
                 transition={{ duration: 0.6 }}
                 alt="Traditional Ayurvedic Ritual"
                 className="w-full h-full object-cover"
-                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=1000"
+                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=1000"
               />
             </div>
             <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-primary-container rounded-2xl p-6 flex flex-col justify-end text-on-primary shadow-xl hidden md:flex">
@@ -175,7 +175,7 @@ export default function About() {
               className="md:col-span-2 bg-surface-container p-8 rounded-2xl flex flex-col justify-between border-b-4 border-tertiary-container"
             >
               <div className="w-16 h-16 rounded-xl overflow-hidden mb-6 border border-outline-variant">
-                <img alt="Authentic" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=400" />
+                <img alt="Authentic" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1611073615830-4e53c4e50523?auto=format&fit=crop&q=80&w=400" />
               </div>
               <h4 className="font-headline text-2xl mb-2">Authenticity</h4>
               <p className="text-sm opacity-80">Upholding the classical protocols defined in the Charaka Samhita without compromise.</p>
@@ -186,7 +186,7 @@ export default function About() {
               className="md:col-span-2 bg-surface-container p-8 rounded-2xl flex flex-col justify-between border-b-4 border-primary"
             >
               <div className="w-16 h-16 rounded-xl overflow-hidden mb-6 border border-outline-variant">
-                <img alt="Root-Cause" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&q=80&w=400" />
+                <img alt="Root-Cause" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=400" />
               </div>
               <h4 className="font-headline text-2xl mb-2">Root-Cause</h4>
               <p className="text-sm opacity-80">Moving beyond the surface to identify and eliminate the origin of imbalance.</p>
@@ -197,7 +197,7 @@ export default function About() {
               className="md:col-span-2 bg-surface-container p-8 rounded-2xl flex flex-col justify-between border-b-4 border-tertiary-container"
             >
               <div className="w-16 h-16 rounded-xl overflow-hidden mb-6 border border-outline-variant">
-                <img alt="Patient-First" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=400" />
+                <img alt="Patient-First" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=400" />
               </div>
               <h4 className="font-headline text-2xl mb-2">Patient-First</h4>
               <p className="text-sm opacity-80">A commitment to compassionate care that treats the human, not just the ailment.</p>
@@ -205,7 +205,7 @@ export default function About() {
 
             <div className="md:col-span-3 bg-surface-container-high p-8 rounded-2xl flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 flex-shrink-0 rounded-2xl overflow-hidden border border-outline-variant">
-                <img alt="Holistic Wellness" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=400" />
+                <img alt="Holistic Wellness" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=400" />
               </div>
               <div>
                 <h4 className="font-headline text-2xl mb-2">Holistic Wellness</h4>
@@ -215,7 +215,7 @@ export default function About() {
 
             <div className="md:col-span-3 bg-surface-container-high p-8 rounded-2xl flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 flex-shrink-0 rounded-2xl overflow-hidden border border-outline-variant">
-                <img alt="Integrity" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=400" />
+                <img alt="Integrity" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=400" />
               </div>
               <div>
                 <h4 className="font-headline text-2xl mb-2">Integrity</h4>
