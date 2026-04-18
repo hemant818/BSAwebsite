@@ -66,7 +66,7 @@ export default function Services() {
       title: "Viddhakarma",
       desc: "A precise piercing or puncturing technique at specific therapeutic points on the body to release blocked energy, alleviate pain, and restore natural balance in affected areas.",
       icon: "healing",
-      image: "https://images.unsplash.com/photo-1519823551278-64ac92734314?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=800",
     },
     {
       title: "Marma Therapy",

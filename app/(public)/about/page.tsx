@@ -239,7 +239,7 @@ export default function About() {
               className="md:col-span-2 bg-surface-container p-8 rounded-2xl flex flex-col justify-between border-b-4 border-tertiary-container"
             >
               <div className="w-16 h-16 rounded-xl overflow-hidden mb-6 border border-outline-variant">
-                <img alt="Authentic" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1611073615830-4e53c4e50523?auto=format&fit=crop&q=80&w=400" />
+                <img alt="Authentic" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=400" />
               </div>
               <h4 className="font-headline text-2xl mb-2">Authenticity</h4>
               <p className="text-sm opacity-80">Upholding the classical protocols defined in the Charaka Samhita without compromise.</p>
@@ -279,7 +279,7 @@ export default function About() {
 
             <div className="md:col-span-3 bg-surface-container-high p-8 rounded-2xl flex flex-col md:flex-row gap-6 items-center">
               <div className="w-20 h-20 flex-shrink-0 rounded-2xl overflow-hidden border border-outline-variant">
-                <img alt="Integrity" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=400" />
+                <img alt="Integrity" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=400" />
               </div>
               <div>
                 <h4 className="font-headline text-2xl mb-2">Integrity</h4>
