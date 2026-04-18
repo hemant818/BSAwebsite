@@ -146,50 +146,6 @@ export default function DoctorProfile() {
         </div>
       </section>
 
-      {/* Experience Timeline Section */}
-      <section className="bg-surface-container-low py-24">
-        <div className="max-w-4xl mx-auto px-8">
-          <div className="text-center mb-16">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold text-on-background">Career Milestones</h2>
-            <p className="text-on-surface-variant mt-2 font-body italic">A journey of dedication and healing.</p>
-          </div>
-          
-          <div className="relative">
-            {/* Vertical line */}
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-outline-variant/30 -translate-x-1/2 hidden md:block"></div>
-            
-            <div className="space-y-12">
-              {[
-                { year: "2018 — PRESENT", title: "Senior Consultant", org: "Brahmasutra Ayurveda", desc: "Leading the Panchkarma department and overseeing holistic wellness transformations for over 5,000 patients.", align: "right" },
-                { year: "2014 — 2018", title: "Lead Ayurvedic Physician", org: "AyurGen Health Center", desc: "Pioneered personalized nutrition and detox programs integrated with Yoga therapy.", align: "left" },
-                { year: "2010 — 2014", title: "Resident Doctor", org: "Veda Vidya Ayurvedic Institute", desc: "Started clinical practice focusing on botanical formulations and traditional pulse diagnosis (Nadi Pariksha).", align: "right" }
-              ].map((item, idx) => (
-                <motion.div 
-                  key={idx}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: idx * 0.1 }}
-                  className={`relative flex flex-col md:flex-row items-center ${item.align === "left" ? "md:flex-row-reverse" : ""}`}
-                >
-                  <div className={`md:w-1/2 ${item.align === "right" ? "md:pr-12 md:text-right" : "md:pl-12 md:text-left"} mt-4 md:mt-0`}>
-                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-outline-variant/10">
-                      <h4 className="text-primary font-bold text-lg">{item.title}</h4>
-                      <p className="text-on-background font-medium">{item.org}</p>
-                      <p className="text-sm text-on-surface-variant mt-2">{item.desc}</p>
-                    </div>
-                  </div>
-                  <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-primary border-4 border-surface rounded-full -translate-x-1/2 z-10 hidden md:block"></div>
-                  <div className={`md:w-1/2 ${item.align === "right" ? "md:pl-12" : "md:pr-12"} order-first`}>
-                    <span className="text-primary font-bold tracking-tighter text-sm">{item.year}</span>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Introduction Video Section */}
       <section className="py-24 max-w-7xl mx-auto px-8">
         <div className="text-center mb-12">

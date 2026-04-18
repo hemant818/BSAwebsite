@@ -77,8 +77,8 @@ export function Footer() {
             </div>
             <div className="flex gap-3 items-center text-sm">
               <span className="material-symbols-outlined text-primary text-base">mail</span>
-              <a href="mailto:care@brahmasutra.com" className="text-on-surface-variant hover:text-primary transition-colors">
-                care@brahmasutra.com
+              <a href="mailto:brahmasutraayurveda@gmail.com" className="text-on-surface-variant hover:text-primary transition-colors">
+                brahmasutraayurveda@gmail.com
               </a>
             </div>
           </div>

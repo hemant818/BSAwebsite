@@ -316,7 +316,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
                 </div>
                 <div className="flex gap-3 items-center">
                   <span className="material-symbols-outlined text-primary text-lg">mail</span>
-                  <a href="mailto:sushinaina@gmail.com" className="text-on-surface-variant hover:text-primary">sushinaina@gmail.com</a>
+                  <a href="mailto:brahmasutraayurveda@gmail.com" className="text-on-surface-variant hover:text-primary">brahmasutraayurveda@gmail.com</a>
                 </div>
               </div>
               <div className="pt-4 border-t border-outline-variant/20 space-y-2 text-sm">
