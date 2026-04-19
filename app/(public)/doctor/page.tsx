@@ -63,7 +63,7 @@ export default function DoctorProfile() {
           >
             <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-surface-container">
               <img 
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800" 
+                src="/doctor-profile.jpg" 
                 alt="Dr. Sushila Singh"
                 className="w-full h-full object-cover grayscale-[0.2] group-hover:grayscale-0 transition-all duration-700"
               />

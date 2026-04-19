@@ -108,7 +108,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
                 <div className="relative mb-4">
                   <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-surface-container-high relative">
                     <Image
-                      src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=400&auto=format&fit=crop"
+                      src="/doctor-profile.jpg"
                       alt="Dr. Sushila Singh"
                       fill
                       className="object-cover"

@@ -270,7 +270,7 @@ export default function Home() {
           >
             <div className="w-80 h-80 md:w-[450px] md:h-[450px] rounded-full p-4 border-2 border-tertiary-container relative z-10">
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-primary relative">
-                <Image src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?q=80&w=800&auto=format&fit=crop" alt="Dr. Sushila Singh" fill className="object-cover" />
+                <Image src="/doctor-home.jpg" alt="Dr. Sushila Singh" fill className="object-cover" />
               </div>
             </div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] border border-on-primary/10 rounded-full animate-pulse"></div>
