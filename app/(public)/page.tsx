@@ -217,25 +217,50 @@ export default function Home() {
       <section className="bg-[#F5F5DC] px-8 py-24">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-2">
-            <span className="text-tertiary font-label tracking-[0.2em] font-bold uppercase text-xs">SACRED RITUALS</span>
+            <span className="text-tertiary font-label tracking-[0.2em] font-bold uppercase text-xs">OUR SPECIALTIES</span>
             <h2 className="font-playfair text-4xl md:text-5xl text-primary font-bold">Ayurvedic Expertise</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                title: "Panchakarma",
-                desc: "A comprehensive detoxification program designed to flush out deep-seated toxins.",
+                title: "Neuromusculoskeletal Disorders",
+                desc: "Holistic treatments for joint pain, arthritis, and spine discrepancies using traditional herbal therapies.",
+                img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop"
+              },
+              {
+                title: "Lifestyle Disorders",
+                desc: "Rebalance your life and manage stress-induced ailments with personalized Ayurvedic interventions.",
+                img: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=800&auto=format&fit=crop"
+              },
+              {
+                title: "Metabolic Disorders",
+                desc: "Regulate your body's metabolism and address conditions like diabetes and thyroid imbalances naturally.",
+                img: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=800&auto=format&fit=crop"
+              },
+              {
+                title: "Degenerative Changes",
+                desc: "Slowing down and managing age-related or wear-and-tear conditions through deep tissue nourishment.",
                 img: "https://images.unsplash.com/photo-1552693673-1bf958298935?q=80&w=800&auto=format&fit=crop"
               },
               {
-                title: "Hair & Scalp",
-                desc: "Traditional Shirodhara and herbal oil treatments to combat hair loss and restore natural sheen.",
-                img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=800&auto=format&fit=crop"
+                title: "Hormonal Imbalances",
+                desc: "Restore endocrine harmony with precise dosha-balancing regimens tailored for your constitution.",
+                img: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?q=80&w=800&auto=format&fit=crop"
               },
               {
-                title: "Skin & Face",
-                desc: "Ayurvedic facials and Lepas tailored to your skin's Dosha for a radiant, blemish-free complexion.",
-                img: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=800&auto=format&fit=crop"
+                title: "Customised Diet & Nutrition",
+                desc: "Nutrition plans rooted in Ayurvedic wisdom to fuel your specific mind-body type effectively.",
+                img: "https://images.unsplash.com/photo-1490645935967-10de6ba8232f?q=80&w=800&auto=format&fit=crop"
+              },
+              {
+                title: "Sports Nutrition & Recovery",
+                desc: "Accelerate recovery, enhance stamina, and heal sports injuries with specialized plant-based care.",
+                img: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=800&auto=format&fit=crop"
+              },
+              {
+                title: "Yoga Instructions",
+                desc: "Therapeutic yoga sessions aligned with Ayurvedic principles to foster flexibility, strength, and inner peace.",
+                img: "https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?q=80&w=800&auto=format&fit=crop"
               }
             ].map((service, i) => (
               <motion.div 
@@ -243,16 +268,16 @@ export default function Home() {
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: i * 0.12 }}
+                transition={{ delay: i * 0.1 }}
                 whileHover={{ y: -5 }}
-                className="bg-white p-10 rounded-[12px] shadow-sm flex flex-col items-start transition-transform"
+                className="bg-white p-8 rounded-[12px] shadow-sm flex flex-col items-start transition-transform"
               >
                 <div className="relative w-12 h-12 rounded-full overflow-hidden mb-6">
                   <Image src={service.img} alt={service.title} fill className="object-cover" />
                 </div>
-                <h3 className="font-headline text-2xl font-bold text-tertiary mb-4">{service.title}</h3>
-                <p className="font-poppins text-on-surface-variant text-sm leading-relaxed mb-6">{service.desc}</p>
-                <Link href={`/services`} className="text-primary font-bold text-sm hover:underline mt-auto">Explore &gt;</Link>
+                <h3 className="font-headline text-lg font-bold text-tertiary mb-3">{service.title}</h3>
+                <p className="font-poppins text-on-surface-variant text-xs leading-relaxed mb-6 flex-grow">{service.desc}</p>
+                <Link href={`/services`} className="text-primary font-bold text-xs hover:underline mt-auto">Explore &gt;</Link>
               </motion.div>
             ))}
           </div>
