@@ -202,7 +202,7 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-2 gap-6 pt-4">
             <div className="p-6 bg-surface-container rounded-2xl">
-              <p className="text-3xl font-headline text-primary mb-1">5000+</p>
+              <p className="text-3xl font-headline text-primary mb-1">+50000</p>
               <p className="text-sm font-label uppercase">Happy Patients</p>
             </div>
             <div className="p-6 bg-surface-container rounded-2xl">
