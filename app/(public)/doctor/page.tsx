@@ -149,7 +149,7 @@ export default function DoctorProfile() {
       {/* Introduction Video Section */}
       <section className="py-24 max-w-7xl mx-auto px-8">
         <div className="text-center mb-12">
-          <h2 className="font-headline text-3xl font-bold text-on-background mb-4">A Message from Dr. Singh</h2>
+          <h2 className="font-headline text-3xl font-bold text-on-background mb-4">A Message from Dr. Sushila Singh</h2>
           <p className="text-on-surface-variant max-w-2xl mx-auto">Understanding the philosophy of "The Modern Sage" and how we approach your unique biological constitution.</p>
         </div>
         <motion.div 

@@ -71,7 +71,7 @@ export default function Home() {
                 whileTap={{ scale: 0.97 }}
                 className="bg-surface-container-high hover:bg-surface-container-highest text-primary border border-outline-variant px-8 py-4 rounded-xl font-bold flex items-center gap-2 transition-all"
               >
-                Chat with Dr. Singh
+                Chat with Dr. Sushila Singh
                 <span className="material-symbols-outlined pb-1">chat</span>
               </motion.button>
             </Link>
@@ -84,9 +84,9 @@ export default function Home() {
             className="flex items-center gap-4 pt-4"
           >
             <div className="flex -space-x-2">
-              <div className="w-10 h-10 rounded-full border-2 border-surface bg-primary-fixed flex items-center justify-center text-on-primary-fixed text-xs font-bold">14+</div>
+              <div className="w-10 h-10 rounded-full border-2 border-surface bg-primary-fixed flex items-center justify-center text-on-primary-fixed text-xs font-bold">15+</div>
             </div>
-            <span className="text-sm font-medium text-on-surface-variant">Trusted for 14+ Years Experience in Ayurveda</span>
+            <span className="text-sm font-medium text-on-surface-variant">Trusted for 15+ Years Experience in Ayurveda</span>
           </motion.div>
         </div>
         
@@ -125,7 +125,7 @@ export default function Home() {
       <section className="bg-white/60 backdrop-blur-sm border-y border-surface-variant/30 py-12">
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 md:grid-cols-6 gap-8">
           {[
-            { icon: "history", text: "14+ Years" },
+            { icon: "history", text: "15+ Years" },
             { icon: "medical_services", text: "MD-Panchkarma" },
             { icon: "school", text: "PhD Scholar" },
             { icon: "spa", text: "Specialist" },
@@ -310,7 +310,7 @@ export default function Home() {
               "Ayurveda is not a medicine, it is a way of life that aligns our internal rhythm with the universe."
             </p>
             <p className="text-on-primary opacity-80 leading-relaxed">
-              With over 15 years of clinical expertise, Dr. Sushila Singh (MD-Panchakarma, PhD Scholar) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
+              With over 15 years of clinical expertise, Dr. Sushila Singh (BAMS, CRAV, MD Panchkarma , PhD Scholar) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
             </p>
             <Link href="/book-appointment">
               <motion.button 
@@ -342,7 +342,7 @@ export default function Home() {
                 type: "Chronic Pain Management"
               },
               {
-                text: "Dr. Singh's diagnosis is incredibly precise. She caught the root cause of my skin allergies that modern medicine kept masking with steroids.",
+                text: "Dr. Sushila Singh's diagnosis is incredibly precise. She caught the root cause of my skin allergies that modern medicine kept masking with steroids.",
                 initials: "MS",
                 name: "Meera Sharma",
                 type: "Dermatology Care"

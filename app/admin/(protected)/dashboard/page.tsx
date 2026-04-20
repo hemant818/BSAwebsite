@@ -41,7 +41,7 @@ export default async function AdminDashboard() {
     <div className="space-y-8">
       <div>
         <h1 className="font-headline text-3xl font-bold text-on-surface">Overview</h1>
-        <p className="text-on-surface-variant font-medium">Welcome back, Dr. Singh. Here&apos;s what&apos;s happening today.</p>
+        <p className="text-on-surface-variant font-medium">Welcome back, Dr. Sushila Singh. Here&apos;s what&apos;s happening today.</p>
       </div>
 
       {dbError && (
