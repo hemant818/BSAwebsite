@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const DOCTOR_WHATSAPP = "919510250323"; // Doctor's WhatsApp number
+const DOCTOR_WHATSAPP = "919737370959"; // Doctor's WhatsApp number
 
 const TIME_SLOTS = [
   "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM",
@@ -312,7 +312,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
                 </div>
                 <div className="flex gap-3 items-center">
                   <span className="material-symbols-outlined text-primary text-lg">call</span>
-                  <a href="tel:+919510250323" className="text-on-surface-variant hover:text-primary">+91 9510250323</a>
+                  <a href="tel:+919737370959" className="text-on-surface-variant hover:text-primary">+91 9737370959</a>
                 </div>
                 <div className="flex gap-3 items-center">
                   <span className="material-symbols-outlined text-primary text-lg">mail</span>

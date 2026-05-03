@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
           {/* WhatsApp CTA */}
           <a
-            href="https://wa.me/919510250323?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Sushila%20Singh."
+            href="https://wa.me/919737370959?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Sushila%20Singh."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#128C7E] transition-colors"
@@ -45,8 +45,8 @@ export default function Footer() {
             </div>
             <div className="flex gap-3 items-center text-sm">
               <span className="material-symbols-outlined text-primary text-base">call</span>
-              <a href="tel:+919510250323" className="text-on-surface-variant hover:text-primary transition-colors">
-                +91 9510250323
+              <a href="tel:+919737370959" className="text-on-surface-variant hover:text-primary transition-colors">
+                +91 9737370959
               </a>
             </div>
             <div className="flex gap-3 items-center text-sm">
