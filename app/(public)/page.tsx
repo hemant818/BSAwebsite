@@ -99,7 +99,7 @@ export default function Home() {
               transition={{ duration: 8, ease: "easeOut" }}
               className="w-full h-full"
             >
-              <Image src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1200&auto=format&fit=crop" alt="Ayurvedic Healing" fill priority className="object-cover" />
+              <Image src="/hero-ayurveda.png" alt="Ayurvedic Healing" fill priority className="object-cover" />
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: 20 }}

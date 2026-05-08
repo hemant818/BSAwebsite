@@ -22,7 +22,7 @@ export default function Services() {
   const services = [
     {
       title: "Ayurvedic Consultations",
-      desc: "Personalized health assessments rooted in ancient Ayurvedic wisdom. Our expert evaluates your Prakriti (constitution), identifies imbalances, and creates a holistic roadmap for lasting wellness.",
+      desc: "We offers a personalised comprehensive health assessment by qualified experts( Vaidya) focusing on your unique mind-body constitution (Prakriti) and current imbalances( Vikriti ). We uses traditional diagnostic techniques such as pulse diagnosis ( Nadi Pariksha ), tongue/eye examination and detailed questioning about diet and lifestyle to create a tailored wellness plan. Our recommendations often include herbomineral formulations, Panchkarma therapies, dietary changes, yoga and lifestyle adjustments. Along with that our consultations include check-ins to track progress and adjust treatments.",
       icon: "stethoscope",
       image: "/ayurvedic-consultation.png",
     },
