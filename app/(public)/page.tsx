@@ -141,7 +141,7 @@ export default function Home() {
               className="flex flex-col items-center text-center gap-3"
             >
               <span className="material-symbols-outlined text-primary text-3xl">{trust.icon}</span>
-              <span className="text-xs font-bold font-label uppercase tracking-tighter">{trust.text}</span>
+              <span className={`text-xs font-bold font-label tracking-tighter ${trust.text === 'PhD' ? '' : 'uppercase'}`}>{trust.text}</span>
             </motion.div>
           ))}
         </div>
