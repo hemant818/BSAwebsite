@@ -44,7 +44,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-on-surface-variant max-w-lg leading-relaxed"
           >
-            Experience personalized Ayurvedic healthcare that addresses the root cause of your concerns. Authentic Panchakarma treatments for the modern soul.
+            Experience personalized Ayurvedic healthcare that addresses the root cause of your concerns. Authentic Panchkarma treatments for the modern soul.
           </motion.p>
           
           <motion.div 
@@ -112,7 +112,7 @@ export default function Home() {
                   <span className="material-symbols-outlined text-primary pb-1">verified_user</span>
                 </div>
                 <div>
-                  <p className="font-headline font-bold text-primary text-xl">MD-Panchakarma</p>
+                  <p className="font-headline font-bold text-primary text-xl">MD-Panchkarma</p>
                   <p className="text-xs font-label uppercase tracking-wider text-on-surface-variant">Certified Expert</p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 md:grid-cols-6 gap-8">
           {[
             { icon: "history", text: "15+ Years" },
-            { icon: "medical_services", text: "MD-Panchakarma" },
+            { icon: "medical_services", text: "MD-Panchkarma" },
             { icon: "school", text: "PhD Scholar" },
             { icon: "spa", text: "Specialist" },
             { icon: "psychology", text: "Root-Cause" },
@@ -198,7 +198,7 @@ export default function Home() {
           </div>
           <h3 className="font-headline text-4xl leading-tight">Tradition meets the Precision of Modern Science.</h3>
           <p className="text-on-surface-variant leading-relaxed">
-            Founded on the pillars of purity and compassion, our center provides a sanctuary for those seeking sustainable health. We combine traditional Panchakarma protocols with diagnostic excellence to offer comprehensive care for chronic ailments.
+            Founded on the pillars of purity and compassion, our center provides a sanctuary for those seeking sustainable health. We combine traditional Panchkarma protocols with diagnostic excellence to offer comprehensive care for chronic ailments.
           </p>
           <div className="grid grid-cols-2 gap-6 pt-4">
             <div className="p-6 bg-surface-container rounded-2xl">
@@ -310,7 +310,7 @@ export default function Home() {
               "Ayurveda is not a medicine, it is a way of life that aligns our internal rhythm with the universe."
             </p>
             <p className="text-on-primary opacity-80 leading-relaxed">
-              With over 15 years of clinical expertise, Dr. Sushila Singh (BAMS, CRAV, MD Panchakarma , PhD Scholar) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
+              With over 15 years of clinical expertise, Dr. Sushila Singh (BAMS, CRAV, MD Panchkarma , PhD Scholar) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
             </p>
             <Link href="/book-appointment">
               <motion.button 
@@ -336,7 +336,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                text: "The Panchakarma treatment here was life-changing. I had chronic back pain for 5 years that vanished after 14 days of dedicated treatment with Dr. Sushila.",
+                text: "The Panchkarma treatment here was life-changing. I had chronic back pain for 5 years that vanished after 14 days of dedicated treatment with Dr. Sushila.",
                 initials: "RK",
                 name: "Rajesh Kumar",
                 type: "Chronic Pain Management"

@@ -124,7 +124,7 @@ export default function About() {
               {
                 icon: "spa",
                 title: "Holistic Healing",
-                desc: "To provide holistic healing that balances mind, body and soul through practices like Panchakarma, herbs and yoga.",
+                desc: "To provide holistic healing that balances mind, body and soul through practices like Panchkarma, herbs and yoga.",
                 color: "bg-primary",
               },
               {

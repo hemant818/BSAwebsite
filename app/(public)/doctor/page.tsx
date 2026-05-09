@@ -38,7 +38,7 @@ export default function DoctorProfile() {
             {...fadeInUp}
             className="font-headline text-4xl md:text-6xl text-on-primary leading-tight font-medium max-w-3xl"
           >
-            Dr. Sushila Singh, MD-Panchakarma
+            Dr. Sushila Singh, MD-Panchkarma
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -86,7 +86,7 @@ export default function DoctorProfile() {
                 </div>
               </div>
               <p className="text-sm text-on-surface-variant leading-relaxed">
-                Specialized in chronic lifestyle disorders and Panchakarma detoxification.
+                Specialized in chronic lifestyle disorders and Panchkarma detoxification.
               </p>
             </motion.div>
           </motion.div>
@@ -102,7 +102,7 @@ export default function DoctorProfile() {
               <h2 className="font-headline text-3xl font-bold text-on-background mb-4">Integrative Healing Specialist</h2>
               <div className="h-1 w-24 bg-primary rounded-full mb-8"></div>
               <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
-                Dr. Sushila Singh is a visionary in the field of Panchakarma, dedicated to bridge the gap between traditional Vedic protocols and contemporary health challenges. Her approach is rooted in the belief that true healing occurs when the Doshas are aligned with the rhythms of nature.
+                Dr. Sushila Singh is a visionary in the field of Panchkarma, dedicated to bridge the gap between traditional Vedic protocols and contemporary health challenges. Her approach is rooted in the belief that true healing occurs when the Doshas are aligned with the rhythms of nature.
               </p>
             </div>
 

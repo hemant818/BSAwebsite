@@ -9,8 +9,8 @@ const poppins = Poppins({ weight: ["300", "400", "500", "600"], subsets: ["latin
 
 export const metadata: Metadata = {
   title: "Brahmasutra Ayurveda | Ancient Wisdom For Modern Healing",
-  description: "Experience personalized Ayurvedic healthcare that addresses the root cause of your concerns. Authentic Panchakarma treatments.",
-  keywords: "Ayurveda, Panchakarma, Healing, Wellness, Brahmasutra",
+  description: "Experience personalized Ayurvedic healthcare that addresses the root cause of your concerns. Authentic Panchkarma treatments.",
+  keywords: "Ayurveda, Panchkarma, Healing, Wellness, Brahmasutra",
   openGraph: {
     title: "Brahmasutra Ayurveda",
     description: "Ancient Wisdom For Modern Healing",
