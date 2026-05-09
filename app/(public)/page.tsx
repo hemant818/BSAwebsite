@@ -250,7 +250,7 @@ export default function Home() {
               {
                 title: "Customised Diet & Nutrition",
                 desc: "Nutrition plans rooted in Ayurvedic wisdom to fuel your specific mind-body type effectively.",
-                img: "https://images.unsplash.com/photo-1490645935967-10de6ba8232f?q=80&w=800&auto=format&fit=crop"
+                img: "/diet-nutrition.png"
               },
               {
                 title: "Sports Nutrition & Recovery",
