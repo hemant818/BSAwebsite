@@ -38,7 +38,7 @@ export default function DoctorProfile() {
             {...fadeInUp}
             className="font-headline text-4xl md:text-6xl text-on-primary leading-tight font-medium max-w-3xl"
           >
-            Dr. Sushila Singh, MD-Panchkarma
+            Dr. Sushila Singh, MD-Panchakarma
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -86,7 +86,7 @@ export default function DoctorProfile() {
                 </div>
               </div>
               <p className="text-sm text-on-surface-variant leading-relaxed">
-                Specialized in chronic lifestyle disorders and Panchkarma detoxification.
+                Specialized in chronic lifestyle disorders and Panchakarma detoxification.
               </p>
             </motion.div>
           </motion.div>
@@ -102,7 +102,7 @@ export default function DoctorProfile() {
               <h2 className="font-headline text-3xl font-bold text-on-background mb-4">Integrative Healing Specialist</h2>
               <div className="h-1 w-24 bg-primary rounded-full mb-8"></div>
               <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
-                Dr. Sushila Singh is a visionary in the field of Panchkarma, dedicated to bridge the gap between traditional Vedic protocols and contemporary health challenges. Her approach is rooted in the belief that true healing occurs when the Doshas are aligned with the rhythms of nature.
+                Dr. Sushila Singh is a visionary in the field of Panchakarma, dedicated to bridge the gap between traditional Vedic protocols and contemporary health challenges. Her approach is rooted in the belief that true healing occurs when the Doshas are aligned with the rhythms of nature.
               </p>
             </div>
 
@@ -111,7 +111,7 @@ export default function DoctorProfile() {
                 <span className="material-symbols-outlined">translate</span> Languages Spoken
               </h3>
               <div className="flex flex-wrap gap-3">
-                {["English", "Hindi", "Gujarati"].map((lang) => (
+                {["English", "Hindi", "Gujarati", "Sanskrit"].map((lang) => (
                   <span key={lang} className="px-5 py-2 rounded-full bg-surface-container text-on-surface-variant font-medium border border-outline-variant/20">
                     {lang}
                   </span>
@@ -128,7 +128,7 @@ export default function DoctorProfile() {
               <div className="p-6 bg-surface-container-low rounded-2xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-3xl mb-3">clinical_notes</span>
                 <h4 className="font-headline text-lg font-bold mb-2">Specialization</h4>
-                <ul className="text-sm text-on-surface-variant space-y-1.5 list-none">
+                <ul className="text-sm text-on-surface-variant space-y-1.5 list-none font-medium">
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Neuromusculoskeletal disease</li>
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Metabolic disorders / lifestyle disorders</li>
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Hormonal imbalances</li>
@@ -139,6 +139,7 @@ export default function DoctorProfile() {
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Cosmetic care</li>
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Hair problems</li>
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Nadi Pariksha (Pulse Diagnosis)</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">•</span>Garbhsanskar Program</li>
                 </ul>
               </div>
             </div>

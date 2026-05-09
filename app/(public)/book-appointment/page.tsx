@@ -30,7 +30,7 @@ export default function BookAppointment() {
     concern: "",
     date: getTodayDate(),
     time: "",
-    type: "In-Clinic Visit",
+    type: "In-Center Visit",
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
 
@@ -186,7 +186,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
                 <div>
                   <label className="block font-label text-[10px] uppercase tracking-widest text-on-surface-variant mb-1.5 ml-1">Consultation Type</label>
                   <div className="grid grid-cols-2 gap-3">
-                    {["In-Clinic Visit", "Video Consultation"].map((t) => (
+                    {["In-Center Visit", "Video Consultation"].map((t) => (
                       <label
                         key={t}
                         className={`cursor-pointer rounded-xl p-3.5 border-2 transition-all text-center text-sm font-bold select-none ${
@@ -302,9 +302,9 @@ _Please confirm this appointment at your earliest. Thank you!_`;
               </a>
             </div>
 
-            {/* Clinic Info */}
+            {/* Center Info */}
             <div className="bg-surface-container-low rounded-3xl p-8 space-y-5">
-              <h3 className="font-headline text-lg font-bold text-on-surface">Clinic Information</h3>
+              <h3 className="font-headline text-lg font-bold text-on-surface">Center Information</h3>
               <div className="space-y-4 text-sm">
                 <div className="flex gap-3 items-start">
                   <span className="material-symbols-outlined text-primary text-lg mt-0.5">location_on</span>

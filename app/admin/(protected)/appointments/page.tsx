@@ -91,7 +91,7 @@ export default function AdminAppointments() {
                     </td>
                     <td className="p-4 align-top text-sm text-on-surface">
                       <span className="bg-surface-container px-2 py-1 rounded text-xs">
-                        {app.consultationType === "ONLINE" ? "Video" : "Clinic"}
+                        {app.consultationType === "ONLINE" ? "Video" : "Center"}
                       </span>
                     </td>
                     <td className="p-4 align-top">

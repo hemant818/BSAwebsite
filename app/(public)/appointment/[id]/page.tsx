@@ -63,7 +63,7 @@ export default async function AppointmentSuccessPage({ params }: { params: { id:
               <div>
                 <span className="block text-on-surface-variant font-label text-[10px] uppercase tracking-widest mb-1">Type</span>
                 <span className="font-medium text-sm">
-                  {appointment.consultationType === "ONLINE" ? "Video Consultation" : "In-Clinic Visit"}
+                  {appointment.consultationType === "ONLINE" ? "Video Consultation" : "In-Center Visit"}
                 </span>
               </div>
             </div>

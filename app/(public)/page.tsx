@@ -99,7 +99,7 @@ export default function Home() {
               transition={{ duration: 8, ease: "easeOut" }}
               className="w-full h-full"
             >
-              <Image src="/hero-ayurveda.png" alt="Ayurvedic Healing" fill priority className="object-cover" />
+              <Image src="/hero-ayurveda-new.jpg" alt="Ayurvedic Healing" fill priority className="object-cover" />
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, x: 20 }}
@@ -112,7 +112,7 @@ export default function Home() {
                   <span className="material-symbols-outlined text-primary pb-1">verified_user</span>
                 </div>
                 <div>
-                  <p className="font-headline font-bold text-primary text-xl">MD-Panchkarma</p>
+                  <p className="font-headline font-bold text-primary text-xl">MD-Panchakarma</p>
                   <p className="text-xs font-label uppercase tracking-wider text-on-surface-variant">Certified Expert</p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-8 grid grid-cols-2 md:grid-cols-6 gap-8">
           {[
             { icon: "history", text: "15+ Years" },
-            { icon: "medical_services", text: "MD-Panchkarma" },
+            { icon: "medical_services", text: "MD-Panchakarma" },
             { icon: "school", text: "PhD Scholar" },
             { icon: "spa", text: "Specialist" },
             { icon: "psychology", text: "Root-Cause" },
@@ -147,7 +147,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* About Clinic Highlight */}
+      {/* About Center Highlight */}
       <section className="max-w-7xl mx-auto px-8 py-32 grid md:grid-cols-2 gap-20 items-center">
         <motion.div 
           initial={{ opacity: 0, x: -50 }}
@@ -198,12 +198,12 @@ export default function Home() {
           </div>
           <h3 className="font-headline text-4xl leading-tight">Tradition meets the Precision of Modern Science.</h3>
           <p className="text-on-surface-variant leading-relaxed">
-            Founded on the pillars of purity and compassion, our clinic provides a sanctuary for those seeking sustainable health. We combine traditional Panchakarma protocols with diagnostic excellence to offer comprehensive care for chronic ailments.
+            Founded on the pillars of purity and compassion, our center provides a sanctuary for those seeking sustainable health. We combine traditional Panchakarma protocols with diagnostic excellence to offer comprehensive care for chronic ailments.
           </p>
           <div className="grid grid-cols-2 gap-6 pt-4">
             <div className="p-6 bg-surface-container rounded-2xl">
-              <p className="text-3xl font-headline text-primary mb-1">+50000</p>
-              <p className="text-sm font-label uppercase">Happy Patients</p>
+              <p className="text-3xl font-headline text-primary mb-1">+45000</p>
+              <p className="text-sm font-label uppercase">Happy Patient</p>
             </div>
             <div className="p-6 bg-surface-container rounded-2xl">
               <p className="text-3xl font-headline text-primary mb-1">100%</p>
@@ -310,7 +310,7 @@ export default function Home() {
               "Ayurveda is not a medicine, it is a way of life that aligns our internal rhythm with the universe."
             </p>
             <p className="text-on-primary opacity-80 leading-relaxed">
-              With over 15 years of clinical expertise, Dr. Sushila Singh (BAMS, CRAV, MD Panchkarma , PhD Scholar) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
+              With over 15 years of clinical expertise, Dr. Sushila Singh (BAMS, CRAV, MD Panchakarma , PhD Scholar) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
             </p>
             <Link href="/book-appointment">
               <motion.button 
@@ -348,7 +348,7 @@ export default function Home() {
                 type: "Dermatology Care"
               },
               {
-                text: "The atmosphere of the clinic is so peaceful. You start feeling better the moment you walk in. Truly the modern sage of Ayurvedic wellness.",
+                text: "The atmosphere of the center is so peaceful. You start feeling better the moment you walk in. Truly the modern sage of Ayurvedic wellness.",
                 initials: "AJ",
                 name: "Amit Jain",
                 type: "Wellness Program"

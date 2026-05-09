@@ -108,7 +108,7 @@ export default async function AdminDashboard() {
                       {format(new Date(app.preferredDate), "MMM dd")} <span className="text-on-surface-variant text-xs">at {app.timeSlot}</span>
                     </td>
                     <td className="py-4 pr-4 text-sm text-on-surface">
-                      {app.consultationType === "ONLINE" ? "Video" : "Clinic"}
+                      {app.consultationType === "ONLINE" ? "Video" : "Center"}
                     </td>
                     <td className="py-4 pr-4">
                       {app.status === "PENDING" && <span className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded-md font-bold">Pending</span>}
