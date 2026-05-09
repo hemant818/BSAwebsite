@@ -127,7 +127,7 @@ export default function Home() {
           {[
             { icon: "history", text: "15+ Years" },
             { icon: "medical_services", text: "MD-Panchakarma" },
-            { icon: "school", text: "PhD" },
+            { icon: "school", text: "PhD Scholar" },
             { icon: "spa", text: "Specialist" },
             { icon: "psychology", text: "Root-Cause" },
             { icon: "eco", text: "No Side Effects" },
@@ -141,7 +141,7 @@ export default function Home() {
               className="flex flex-col items-center text-center gap-3"
             >
               <span className="material-symbols-outlined text-primary text-3xl">{trust.icon}</span>
-              <span className={`text-xs font-bold font-label tracking-tighter ${trust.text === 'PhD' ? '' : 'uppercase'}`}>{trust.text}</span>
+              <span className={`text-xs font-bold font-label tracking-tighter ${trust.text === 'PhD Scholar' ? '' : 'uppercase'}`}>{trust.text}</span>
             </motion.div>
           ))}
         </div>
@@ -310,7 +310,7 @@ export default function Home() {
               "Ayurveda is not a medicine, it is a way of life that aligns our internal rhythm with the universe."
             </p>
             <p className="text-on-primary opacity-80 leading-relaxed">
-              With over 15 years of clinical expertise, Dr. Sushila Singh (BAMS, CRAV, MD Panchakarma , PhD) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
+              With over 15 years of clinical expertise, Dr. Sushila Singh (BAMS, CRAV, MD Panchakarma , PhD Scholar) is a renowned expert in treating complex metabolic disorders, skin conditions, and autoimmune diseases through personalized detoxification and rejuvenation therapies.
             </p>
             <Link href="/book-appointment">
               <motion.button 

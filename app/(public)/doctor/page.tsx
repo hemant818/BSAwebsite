@@ -123,7 +123,7 @@ export default function DoctorProfile() {
               <div className="p-6 bg-surface-container-low rounded-2xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-3xl mb-3">school</span>
                 <h4 className="font-headline text-lg font-bold mb-2">Education</h4>
-                <p className="text-sm text-on-surface-variant">BAMS, CRAV, MD, PhD</p>
+                <p className="text-sm text-on-surface-variant">BAMS, CRAV, MD, PhD Scholar</p>
               </div>
               <div className="p-6 bg-surface-container-low rounded-2xl border border-outline-variant/10">
                 <span className="material-symbols-outlined text-primary text-3xl mb-3">clinical_notes</span>
