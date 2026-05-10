@@ -172,9 +172,150 @@ export default function Services() {
     },
     {
       title: "Customized Diet & Lifestyle Plans",
-      desc: "Tailored nutrition and daily routine guidance aligned with your unique Dosha constitution. We design sustainable plans that integrate Ayurvedic dietetics with your modern lifestyle.",
+      desc: "Your Body is Unique. Your Diet & Lifestyle Should Be Too. At Brahmasutra Ayurveda, we don’t believe in one-size-fits-all diet charts. We design your food, sleep, and daily routine based on your Prakriti, health issues, and life goals — as Ayurveda intended.",
       icon: "restaurant",
       image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&q=80&w=800",
+      detailedContent: (
+        <div className="space-y-6 text-on-surface">
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Choose Our Customised Plans?</h4>
+            <p className="text-sm">Unlike trending diets, Ayurveda first understands <strong className="text-tertiary">you</strong>. Our Vaidyas assess your body-mind type, current imbalance, digestion strength, work routine, and season before creating your plan.</p>
+            <p className="text-sm mt-2 italic text-tertiary">This is not a diet. This is your personal health blueprint.</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">What’s Included in Your Personalised Plan?</h4>
+            <div className="space-y-4">
+              <div>
+                <strong className="text-lg text-tertiary">Prakriti & Vikriti Analysis</strong>
+                <p className="text-sm"><span className="font-semibold">Purpose:</span> Identify your natural body type - Vata, Pitta, Kapha - and current imbalances.</p>
+                <p className="text-sm"><span className="font-semibold">Method:</span> Detailed consultation with Nadi Pariksha, tongue analysis, and lifestyle questionnaire by our expert Vaidyas.</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Customised Aahar Plan – Your Food as Medicine</strong>
+                <p className="text-sm font-semibold mb-1">What you get:</p>
+                <ul className="list-disc pl-5 text-sm space-y-1 mb-2">
+                  <li><span className="font-semibold">Foods to Favor & Avoid:</span> Based on your dosha and health condition</li>
+                  <li><span className="font-semibold">Meal Timings:</span> Aligned with your digestive fire - Agni</li>
+                  <li><span className="font-semibold">Cooking Methods:</span> Which spices, oils, and combinations suit you</li>
+                  <li><span className="font-semibold">Seasonal Adjustments:</span> What to eat in summer vs monsoon vs winter</li>
+                  <li><span className="font-semibold">Disease-Specific Diet:</span> For diabetes, PCOS, thyroid, IBS, skin issues, joint pain</li>
+                </ul>
+                <p className="text-sm italic text-surface-variant bg-surface-container p-3 rounded-lg border border-outline/20">Example: A Pitta person with acidity gets cooling foods like ghee, coconut water, and avoids spicy, fermented items.</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Vihar Plan – Daily & Seasonal Routine</strong>
+                <p className="text-sm font-semibold mb-1">What you get:</p>
+                <ul className="list-disc pl-5 text-sm space-y-1">
+                  <li><span className="font-semibold">Dinacharya:</span> Ideal wake-up time, exercise, oil massage, meditation schedule</li>
+                  <li><span className="font-semibold">Ratricharya:</span> Night routine for deep sleep and hormone balance</li>
+                  <li><span className="font-semibold">Sleep Hygiene:</span> When to sleep, how to improve sleep quality</li>
+                  <li><span className="font-semibold">Exercise Guidance:</span> Yoga, walk, or gym - what suits your body type</li>
+                  <li><span className="font-semibold">Stress Management:</span> Pranayama, meditation techniques for your mind type</li>
+                </ul>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Ritucharya Guidance</strong>
+                <p className="text-sm"><span className="font-semibold">Purpose:</span> Adapt your diet & lifestyle as seasons change to prevent diseases.</p>
+                <p className="text-sm"><span className="font-semibold">What you get:</span> A seasonal calendar with do’s & don’ts for Varsha, Sharad, Hemant, etc.</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Ongoing Support</strong>
+                <ul className="list-disc pl-5 text-sm space-y-1">
+                  <li><span className="font-semibold">Follow-up Calls:</span> Track progress and modify plan every 15 days</li>
+                  <li><span className="font-semibold">WhatsApp Support:</span> For quick doubts on food choices</li>
+                  <li><span className="font-semibold">Recipe Booklet:</span> Easy Ayurvedic recipes for your dosha</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6">
+            <div>
+              <h4 className="text-lg font-bold text-primary mb-3">Who Needs a Customised Plan?</h4>
+              <ul className="list-disc pl-5 text-sm space-y-1">
+                <li><span className="font-semibold">Chronic Issues:</span> Diabetes, BP, PCOS, Thyroid, Arthritis, Migraine</li>
+                <li><span className="font-semibold">Gut Problems:</span> IBS, Acidity, Constipation, Bloating</li>
+                <li><span className="font-semibold">Weight Management:</span> Healthy weight loss or gain without crash diets</li>
+                <li><span className="font-semibold">Skin & Hair:</span> Acne, Psoriasis, Hair fall, Premature greying</li>
+                <li><span className="font-semibold">Mental Health:</span> Anxiety, Insomnia, Low energy, Brain fog</li>
+                <li><span className="font-semibold">Preventive Health:</span> If you want to stay disease-free as per your Prakriti</li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Our 4-Step Process at Brahmasutra Ayurveda</h4>
+            <div className="space-y-3">
+              <p className="text-sm"><strong className="text-tertiary">Step 1: Deep Consultation – 45 mins</strong><br/>One-on-one with our BAMS/MD Ayurveda doctor. We understand your health history, lifestyle, and goals.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 2: Prakriti Assessment Report</strong><br/>You receive a detailed report of your body type and current dosha imbalance.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 3: Your Personal Health Chart</strong><br/>Get a PDF booklet with your Aahar-Vihar plan, recipes, yoga, and daily schedule.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 4: Follow-ups & Fine-Tuning</strong><br/>We track your progress and adjust the plan as your body heals and seasons change.</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Brahmasutra Ayurveda’s Plans Work</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Root-Cause Focus:</strong> We don’t suppress symptoms, we correct your lifestyle</li>
+              <li><strong className="text-tertiary">Practical & Easy:</strong> No exotic foods. We use local, seasonal, kitchen ingredients</li>
+              <li><strong className="text-tertiary">No Starving:</strong> Ayurveda believes in nourishing, not depriving</li>
+              <li><strong className="text-tertiary">Doctor-Guided:</strong> Created and monitored by qualified Ayurvedic physicians</li>
+              <li><strong className="text-tertiary">Holistic:</strong> Food + Sleep + Stress + Exercise - all addressed together</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Sample Plan Snapshot</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20">For Vata Type Person with Insomnia</th>
+                    <th className="p-2 border border-primary/20">Recommendation</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Wake Up</td><td className="p-2 border border-primary/20">6:30 AM, avoid alarm shock</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Breakfast</td><td className="p-2 border border-primary/20">Warm oats porridge with ghee, dates, cardamom</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Lunch</td><td className="p-2 border border-primary/20">Moong dal khichdi + ghee + cumin</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Dinner</td><td className="p-2 border border-primary/20">Light soup + 1 phulka by 7:30 PM</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Abhyanga</td><td className="p-2 border border-primary/20">Daily warm sesame oil massage before bath</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Sleep</td><td className="p-2 border border-primary/20">Brahmi ghee nasya + warm milk with nutmeg at 10 PM</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium text-red-500">Avoid</td><td className="p-2 border border-primary/20">Raw salads, cold drinks, late nights, excess screen</td></tr>
+                </tbody>
+              </table>
+              <p className="text-xs mt-2 italic text-on-surface-variant">Note: Your actual plan will be 100% unique to you after consultation.</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">FAQ</h4>
+            <div className="space-y-4">
+              <div>
+                <strong className="text-sm text-tertiary">Q1. Is this a weight loss diet?</strong>
+                <p className="text-sm">Weight balance happens naturally when your doshas are balanced. Focus is health, not just kilos.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q2. Do I have to eat only Ayurvedic food?</strong>
+                <p className="text-sm">No. We modify your regular home food with Ayurvedic principles. No boring food.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q3. How long before I see results?</strong>
+                <p className="text-sm">Energy & digestion improve in 7-10 days. For chronic issues, give it 6-12 weeks.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q4. Is it online or offline?</strong>
+                <p className="text-sm">Both. Visit Brahmasutra Ayurveda in Ahmedabad or book online video consultation from anywhere.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-6 p-4 bg-tertiary/10 rounded-lg border border-tertiary/20">
+            <p className="text-sm italic text-center text-tertiary">Disclaimer: Ayurvedic diet & lifestyle plans are supportive in nature. They are not a replacement for medical treatment. Please consult your doctor before making major changes, especially if you have serious health conditions.</p>
+          </div>
+        </div>
+      )
     },
     {
       title: "Yoga Instructions",
