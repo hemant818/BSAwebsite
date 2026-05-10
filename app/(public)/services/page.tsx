@@ -143,7 +143,7 @@ export default function Services() {
               <div className="p-8 flex flex-col flex-grow">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="material-symbols-outlined text-primary text-2xl">{service.icon}</span>
-                  <h3 className="font-headline text-xl text-tertiary">{service.title}</h3>
+                  <h3 className="font-headline text-xl font-bold" style={{ color: "#6B7645" }}>{service.title}</h3>
                 </div>
                 <p className="text-on-surface-variant font-body mb-6 flex-grow text-sm leading-relaxed">
                   {service.desc}
