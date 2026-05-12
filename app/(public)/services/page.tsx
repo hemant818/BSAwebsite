@@ -651,7 +651,7 @@ export default function Services() {
           
           <div className="mt-8 p-6 bg-primary-container rounded-xl text-on-primary-container text-center">
             <h4 className="text-lg font-bold mb-2">Visit: Brahmasutra Ayurveda</h4>
-            <p className="text-sm mb-1"><strong>Address:</strong> [Your Address], Ahmedabad</p>
+            <p className="text-sm mb-1"><strong>Address:</strong> Neelkanth Kutir Bunglows, Vatva Gamdi Road, Gamdi Gam, Ahmedabad, Gujarat, India - 382435</p>
             <p className="text-sm mb-1"><strong>Timings:</strong> 10:00 AM – 12:00 PM & 4:00 PM – 6:00 PM | By appointment only</p>
             <p className="text-sm mb-4 font-bold text-tertiary">Special Nadi Pariksha Camp every Thursday morning 8:00 AM to 10:00 AM</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
