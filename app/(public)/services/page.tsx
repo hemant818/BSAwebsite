@@ -478,9 +478,168 @@ export default function Services() {
     },
     {
       title: "Nadi Pariksha (Pulse Diagnosis)",
-      desc: "An ancient diagnostic technique where the physician reads your radial pulse to identify the state of your Doshas, organ health, and deep-seated imbalances with remarkable accuracy.",
+      desc: "Your Pulse Speaks. We Listen. Ancient Diagnosis for Modern Healing. Nadi Pariksha is Ayurveda’s 5000-year-old diagnostic science. Through the pulse at your wrist, our expert Vaidyas understand your body type, current imbalances, and hidden health issues. Special Nadi Pariksha camp every Thursday morning 8 to 10 am.",
       icon: "monitor_heart",
       image: "/nadi-pariksha.png",
+      detailedContent: (
+        <div className="space-y-6 text-on-surface">
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">What is Nadi Pariksha?</h4>
+            <p className="text-sm mb-3">Nadi Pariksha means "Pulse Examination." In Ayurveda, your pulse carries the vibration of Vata, Pitta, and Kapha doshas. By placing three fingers on your radial artery, a trained Vaidya can detect:</p>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Your Prakriti:</strong> Your natural birth constitution</li>
+              <li><strong className="text-tertiary">Your Vikriti:</strong> Current dosha imbalance causing disease</li>
+              <li><strong className="text-tertiary">Organ Health:</strong> Status of heart, liver, kidney, digestion, hormones</li>
+              <li><strong className="text-tertiary">Mental State:</strong> Stress, anxiety, emotional blocks</li>
+              <li><strong className="text-tertiary">Future Tendencies:</strong> What diseases you're prone to</li>
+            </ul>
+            <p className="text-sm mt-3 italic font-semibold">It's not guesswork. It's science your body has been recording since birth.</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Get Nadi Pariksha at Brahmasutra Ayurveda?</h4>
+            <p className="text-sm mb-3 italic">Most places do Nadi Pariksha in 2 minutes. We don't.</p>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Authentic Classical Method:</strong> As described in Sharangdhar Samhita & Yoga Ratnakar. No machines, no shortcuts.</li>
+              <li><strong className="text-tertiary">Experienced Vaidyas:</strong> Our doctors have 10+ years of daily Nadi Pariksha practice with 5000+ patients.</li>
+              <li><strong className="text-tertiary">30-Min Deep Analysis:</strong> We check 7 levels of pulse + tongue, eyes, voice, and ask detailed questions.</li>
+              <li><strong className="text-tertiary">Written Report:</strong> You get a Prakriti-Vikriti chart + explanation in simple Hindi/English.</li>
+              <li><strong className="text-tertiary">Treatment Link:</strong> Your Nadi report directly decides your diet, herbs, Panchakarma & Yoga plan.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">What Can Nadi Pariksha Detect?</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20">System</th>
+                    <th className="p-2 border border-primary/20">What We Can Sense in Your Pulse</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Digestive</td><td className="p-2 border border-primary/20">Weak Agni, Ama/toxins, acidity, IBS, liver sluggishness</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Hormonal</td><td className="p-2 border border-primary/20">Thyroid imbalance, PCOS, diabetes tendency, menopause stage</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Heart & Circulation</td><td className="p-2 border border-primary/20">BP tendency, cholesterol, blockage risk, stress on heart</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Joints & Bones</td><td className="p-2 border border-primary/20">Vata accumulation, early arthritis, calcium deficiency</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Mental Health</td><td className="p-2 border border-primary/20">Anxiety, depression, sleep quality, overthinking patterns</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Reproductive</td><td className="p-2 border border-primary/20">Fertility issues, low ojas, menstrual irregularities</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Immunity</td><td className="p-2 border border-primary/20">Low ojas, recurring infections, autoimmune tendencies</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-sm mt-3 italic bg-surface-container inline-block px-3 py-2 rounded">Note: Nadi Pariksha shows functional imbalances often before blood tests show disease. It's preventive diagnosis.</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Who Should Get Nadi Pariksha?</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Chronic Issues:</strong> If reports are normal but you still feel unwell</li>
+              <li><strong className="text-tertiary">Unexplained Symptoms:</strong> Fatigue, bloating, mood swings, hair fall with no clear cause</li>
+              <li><strong className="text-tertiary">Before Starting Treatment:</strong> To know root cause before Panchakarma, diet, or herbs</li>
+              <li><strong className="text-tertiary">Preventive Health Check:</strong> Once every 6 months to catch imbalance early</li>
+              <li><strong className="text-tertiary">Confused Between Options:</strong> Allopathy vs Ayurveda — know what your body actually needs</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Your Nadi Pariksha Session at Brahmasutra Ayurveda: Step by Step</h4>
+            <div className="space-y-4">
+              <div>
+                <strong className="text-sm text-tertiary">Step 1: Preparation – 5 mins</strong>
+                <p className="text-sm">Sit quietly. No tea/coffee 1 hour before. We take pulse on empty stomach or 2 hrs after food for accuracy.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Step 2: Pulse Reading – 15 mins</strong>
+                <p className="text-sm">Our Vaidya checks your pulse on both wrists. First to know Prakriti, then Vikriti. We check speed, rhythm, movement, temperature.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Step 3: Correlation – 10 mins</strong>
+                <p className="text-sm">We ask about sleep, digestion, emotions, energy to confirm pulse findings. Check tongue, eyes, nails.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Step 4: Your Health Map – Report + Counseling</strong>
+                <p className="text-sm mb-1">You receive:</p>
+                <ul className="list-disc pl-5 text-sm space-y-1">
+                  <li><strong>Prakriti Type:</strong> Vata-Pitta-Kapha % chart</li>
+                  <li><strong>Current Imbalance:</strong> Which dosha is high/low & where</li>
+                  <li><strong>Organ Report:</strong> Which systems need support</li>
+                  <li><strong>Root Cause:</strong> Why your issue started — food, sleep, stress, or past illness</li>
+                  <li><strong>Next Steps:</strong> Diet, lifestyle, herbs, yoga, or Panchakarma plan</li>
+                </ul>
+              </div>
+              <p className="text-sm font-semibold">Total Duration: 30-40 minutes</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Nadi Pariksha vs Modern Tests</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20">Nadi Pariksha</th>
+                    <th className="p-2 border border-primary/20">Blood Test/X-Ray</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20">Shows functional imbalance</td><td className="p-2 border border-primary/20">Shows structural damage</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Detects disease tendency early</td><td className="p-2 border border-primary/20">Detects disease after it forms</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Body-mind-emotion together</td><td className="p-2 border border-primary/20">Only physical parameters</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Personalized root-cause</td><td className="p-2 border border-primary/20">Standardized normal ranges</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-sm mt-3 italic font-semibold">Best approach: Use both. We often ask for reports to correlate with Nadi findings.</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Important Guidelines for Accurate Nadi Pariksha</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Do:</strong> Come with calm mind, empty stomach or 2 hrs after light meal</li>
+              <li><strong className="text-tertiary">Avoid:</strong> Tea, coffee, heavy exercise 2 hrs before | Don't come in fever/just after meal</li>
+              <li><strong className="text-tertiary">Best Time:</strong> Morning 7-10 AM when doshas are stable</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">FAQs</h4>
+            <div className="space-y-4">
+              <div>
+                <strong className="text-sm text-tertiary">Q1. Is Nadi Pariksha accurate?</strong>
+                <p className="text-sm">Yes, in trained hands. It's been used for 5000 years. Accuracy depends on Vaidya's experience & your state during check. That's why we keep 30 mins per patient.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q2. Can it detect cancer/tumor?</strong>
+                <p className="text-sm">Nadi shows tissue-level imbalance and low ojas which are risk factors. It's not a replacement for biopsy/scans. We use it for early prevention.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q3. Will you tell future diseases?</strong>
+                <p className="text-sm">We tell tendencies. Example: "Your pulse shows Pitta in liver + weak digestion → high risk of acidity/skin issues if lifestyle not corrected." You can prevent it.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q4. Do I need to stop medicines before?</strong>
+                <p className="text-sm">No. Continue your allopathic medicines. Tell us what you're taking so we factor it in.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-8 p-6 bg-primary-container rounded-xl text-on-primary-container text-center">
+            <h4 className="text-lg font-bold mb-2">Visit: Brahmasutra Ayurveda</h4>
+            <p className="text-sm mb-1"><strong>Address:</strong> [Your Address], Ahmedabad</p>
+            <p className="text-sm mb-1"><strong>Timings:</strong> 10:00 AM – 12:00 PM & 4:00 PM – 6:00 PM | By appointment only</p>
+            <p className="text-sm mb-4 font-bold text-tertiary">Special Nadi Pariksha Camp every Thursday morning 8:00 AM to 10:00 AM</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
+              <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Nadi Pariksha →</a>
+            </div>
+          </div>
+
+          <div className="mt-6 p-4 bg-tertiary/10 rounded-lg border border-tertiary/20">
+            <p className="text-sm italic text-center text-tertiary">Disclaimer: Nadi Pariksha is an Ayurvedic assessment tool. It is complementary to modern diagnosis and not a replacement for emergency medical care or lab investigations when needed.</p>
+          </div>
+        </div>
+      )
     },
     {
       title: "Raktamokshan",
