@@ -319,9 +319,162 @@ export default function Services() {
     },
     {
       title: "Yoga Instructions",
-      desc: "Guided yoga sessions designed to complement your Ayurvedic treatment plan. From asanas to pranayama, our practice targets specific health goals and enhances overall vitality.",
+      desc: "Yoga That Heals — Designed by Vaidyas, Taught by Acharyas. At Brahmasutra Ayurveda, we practice Ayurvedic Yoga Chikitsa. That means no random asanas. Every breath, every pose is selected by our doctors to balance your doshas and heal your health issues.",
       icon: "self_improvement",
       image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800",
+      detailedContent: (
+        <div className="space-y-6 text-on-surface">
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">What Makes Our Yoga Different?</h4>
+            <p className="text-sm mb-3">In most studios, 25 people do the same Surya Namaskar. Here, your mat is your prescription.</p>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Doctor + Yoga Teacher Team:</strong> Our BAMS/MD Vaidyas & certified Yoga instructors jointly design your routine.</li>
+              <li><strong className="text-tertiary">Prakriti-Based Practice:</strong> Vata needs grounding. Pitta needs cooling. Kapha needs movement. We teach accordingly.</li>
+              <li><strong className="text-tertiary">Medical Yoga:</strong> Safe for slip disc, knee pain, BP, diabetes, pregnancy. We modify, not force.</li>
+              <li><strong className="text-tertiary">Goal-Oriented:</strong> Weight loss, pain relief, stress, hormonal balance — we track progress like a treatment plan.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Our Signature Yoga Programs</h4>
+            <div className="space-y-4">
+              <div>
+                <strong className="text-lg text-tertiary">Ayurvedic Therapeutic Yoga – 1-on-1 Healing Sessions</strong>
+                <p className="text-sm"><span className="font-semibold">For:</span> Back pain, Sciatica, Cervical, Arthritis, PCOS, Thyroid, Diabetes, Anxiety, Insomnia</p>
+                <p className="text-sm"><span className="font-semibold">How it works:</span> 45-min personal session. We combine asana + pranayama + marma points + meditation based on your Nadi Pariksha report.</p>
+                <p className="text-sm"><span className="font-semibold">Package:</span> 12 or 24 sessions | Online/At-Center in Ahmedabad</p>
+                <p className="text-sm"><span className="font-semibold">You get:</span> Home practice video + diet tips + monthly review with Vaidya</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Dosha-Balancing Group Batches</strong>
+                <p className="text-sm"><span className="font-semibold">Morning Batch:</span> 6:30 AM – 7:30 AM | Energizing for Kapha/Vata</p>
+                <p className="text-sm"><span className="font-semibold">Evening Batch:</span> 6:00 PM – 7:00 PM | Calming for Pitta/Stress</p>
+                <p className="text-sm"><span className="font-semibold">Ladies Special:</span> 11:00 AM | PCOS, prenatal, postnatal focus</p>
+                <p className="text-sm"><span className="font-semibold">Batch Size:</span> Only 8 people for personal attention</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Panchakarma Support Yoga</strong>
+                <p className="text-sm"><span className="font-semibold">Purpose:</span> Prepare body before detox + restore strength after</p>
+                <p className="text-sm"><span className="font-semibold">Practices:</span> Lymphatic flows, gentle twists, restorative breathing</p>
+                <p className="text-sm italic mt-1 bg-surface-container inline-block px-2 py-1 rounded">Note: Included free with 7-day+ Panchakarma plans</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Corporate & Workplace Yoga</strong>
+                <p className="text-sm"><span className="font-semibold">For:</span> IT companies, banks, schools in Ahmedabad</p>
+                <p className="text-sm"><span className="font-semibold">Duration:</span> 30-min "Desk-De-Stress" sessions at your office</p>
+                <p className="text-sm"><span className="font-semibold">Focus:</span> Neck/back pain, eye strain, focus, team energy</p>
+                <p className="text-sm"><span className="font-semibold">Bonus:</span> We also conduct monthly "Ayurveda + Yoga" wellness talks</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Pranayama & Meditation Intensive</strong>
+                <p className="text-sm"><span className="font-semibold">Learn:</span> Nadi Shodhana for anxiety, Bhramari for sleep, Kapalbhati for weight, Yoga Nidra for deep rest</p>
+                <p className="text-sm"><span className="font-semibold">Duration:</span> 10-day course | 30 mins daily</p>
+                <p className="text-sm"><span className="font-semibold">Best for:</span> Mental health, focus, high BP, students</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Conditions We Specially Work With</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20">Issue</th>
+                    <th className="p-2 border border-primary/20">Yoga Approach at Brahmasutra</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Spine: Sciatica, Slip Disc, Spondylitis</td><td className="p-2 border border-primary/20">Traction-based asanas, no forward bends, core activation</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Joints: Knee Pain, Arthritis</td><td className="p-2 border border-primary/20">Chair yoga, props, marma-based joint rotations</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Hormonal: PCOS, Thyroid, Menopause</td><td className="p-2 border border-primary/20">Pelvic flows, Bhramari, cooling pranayama</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Lifestyle: Diabetes, BP, Obesity</td><td className="p-2 border border-primary/20">Metabolic sequences, stress-reducing breathwork</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Mind: Anxiety, Depression, Insomnia</td><td className="p-2 border border-primary/20">Grounding asanas, Yoga Nidra, alternate nostril breathing</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Your Journey at Brahmasutra Yoga Shala</h4>
+            <div className="space-y-3">
+              <p className="text-sm"><strong className="text-tertiary">Step 1: Yoga + Ayurveda Assessment – 30 Mins</strong><br/>Meet our Vaidya & Yoga Acharya. We check your pulse, posture, medical history, and goals.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 2: Get Your Personal Yoga Chart</strong><br/>A printed + PDF sequence with pictures, duration, and precautions. No guesswork.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 3: Learn with Correction</strong><br/>We use props, touch, and verbal cues to ensure 0% injury. Even in groups.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 4: Practice & Review</strong><br/>Practice at home 4-5 days/week. Come for weekly review. We upgrade your sequence as you heal.</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Ahmedabad Trusts Brahmasutra Ayurveda for Yoga</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Authentic Lineage:</strong> Classical Hatha + Ayurveda from Charak Samhita, not gym yoga</li>
+              <li><strong className="text-tertiary">Medical Safety:</strong> Every instructor trained in contraindications for 20+ diseases</li>
+              <li><strong className="text-tertiary">Clean Shala:</strong> Washed mats, sanitized props, airy hall</li>
+              <li><strong className="text-tertiary">Results-Oriented:</strong> 87% patients report pain relief/sleep improvement in 21 days*</li>
+              <li><strong className="text-tertiary">Transparent:</strong> No hidden charges. No forcing yearly memberships</li>
+            </ul>
+            <p className="text-xs mt-2 italic text-on-surface-variant">*Based on internal patient feedback 2025-2026</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Class Timings & Fees</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20">Service</th>
+                    <th className="p-2 border border-primary/20">Duration</th>
+                    <th className="p-2 border border-primary/20">Fee</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Trial Class</td><td className="p-2 border border-primary/20">45 mins</td><td className="p-2 border border-primary/20">₹299</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Personal Therapeutic</td><td className="p-2 border border-primary/20">60 mins</td><td className="p-2 border border-primary/20">₹1,200/session or ₹11,999/12 sessions</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Group Batch Monthly</td><td className="p-2 border border-primary/20">60 mins, 5 days/week</td><td className="p-2 border border-primary/20">₹2,499/month</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Online Personal</td><td className="p-2 border border-primary/20">45 mins</td><td className="p-2 border border-primary/20">₹999/session</td></tr>
+                  <tr><td className="p-2 border border-primary/20 font-medium">Corporate Session</td><td className="p-2 border border-primary/20">30 mins</td><td className="p-2 border border-primary/20">Quote on request</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">FAQs from Our Patients</h4>
+            <div className="space-y-4">
+              <div>
+                <strong className="text-sm text-tertiary">Q. I have never done yoga. Can I start at 50?</strong>
+                <p className="text-sm">Absolutely. 60% of our students are 40+ with knee/back issues. We start on chair.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q. Will yoga interfere with my medicines?</strong>
+                <p className="text-sm">No. It supports them. But keep your doctor informed. We coordinate if needed.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q. Do you teach power yoga for weight loss?</strong>
+                <p className="text-sm">We teach sustainable weight loss. Kapha-balancing dynamic yoga + metabolism pranayama + mitahara diet works better than jumping.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q. Can I do it during periods/pregnancy?</strong>
+                <p className="text-sm">Yes, with modifications. We have special prenatal & menstrual sequences.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-8 p-6 bg-primary-container rounded-xl text-on-primary-container text-center">
+            <h4 className="text-lg font-bold mb-2">Brahmasutra Ayurveda – Yoga & Panchakarma Center</h4>
+            <p className="text-sm mb-1"><strong>Timings:</strong> 6:00 AM – 8:00 PM | Sunday Closed</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
+              <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Your Trial Class Today →</a>
+              <a href="https://wa.me/919737370959?text=YOGA" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp "YOGA" for Free Consultation</a>
+            </div>
+          </div>
+
+          <div className="mt-6 p-4 bg-tertiary/10 rounded-lg border border-tertiary/20">
+            <p className="text-sm italic text-center text-tertiary">Disclaimer: Yoga is a complementary therapy. Always practice under trained guidance. Consult physician before starting if you have severe medical conditions.</p>
+          </div>
+        </div>
+      )
     },
     {
       title: "Nadi Pariksha (Pulse Diagnosis)",
