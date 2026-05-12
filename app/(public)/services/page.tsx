@@ -54,12 +54,38 @@ export default function Services() {
                 <p className="text-sm"><span className="font-semibold">Benefits:</span> Detoxifies liver, improves digestion, balances hormones, manages diabetes</p>
               </div>
               <div>
-                <strong className="text-lg text-tertiary">Basti – Medicated Enema</strong>
-                <p className="text-sm"><span className="font-semibold">Best for:</span> Vata disorders, joint pain, constipation, paralysis, IBS, infertility</p>
-                <p className="text-sm"><span className="font-semibold">Process:</span> Herbal oil/decoction enema to cleanse colon and nourish tissues</p>
-                <p className="text-sm"><span className="font-semibold">Duration:</span> 8, 15, or 30 days course</p>
-                <p className="text-sm"><span className="font-semibold">Benefits:</span> Best treatment for back pain, arthritis, neurological issues, rejuvenates body</p>
-                <p className="text-sm"><span className="font-semibold">Types Offered:</span> Anuvasana Basti, Niruha Basti, Matra Basti</p>
+                <strong className="text-lg text-tertiary">Anuvasan Basti</strong>
+                <p className="text-sm mb-2">Anuvasan Basti is a medicated oil enema therapy and a key part of Panchakarma. In this gentle procedure, warm herbal oils or ghee are administered through the rectum in small quantity. Unlike purgation, it stays inside to lubricate, nourish, and balance aggravated Vata dosha.</p>
+                <p className="text-sm"><span className="font-semibold">Best for:</span> Chronic constipation, dry colon, lower back pain, sciatica, arthritis, osteoporosis, neurological disorders, infertility, and dry skin. Excellent for elderly and weak patients.</p>
+                <div className="mt-2">
+                  <span className="font-semibold text-sm">Key Benefits at Brahmasutra Ayurveda:</span>
+                  <ul className="list-disc pl-5 text-sm space-y-1 mt-1">
+                    <li><span className="font-semibold">Lubricates Colon:</span> Ends chronic dry constipation from the root</li>
+                    <li><span className="font-semibold">Strengthens Nerves & Joints:</span> Reduces pain, stiffness, numbness</li>
+                    <li><span className="font-semibold">Rejuvenates Body:</span> Improves strength, sleep, and ojas</li>
+                    <li><span className="font-semibold">Safe & Comfortable:</span> Given in small dose, no discomfort, no weakness</li>
+                  </ul>
+                </div>
+                <p className="text-sm mt-2"><span className="font-semibold">Our Method:</span> At Brahmasutra Ayurveda, we use classical oils like Ksheerbala Taila, Dhanwantaram Taila, or medicated ghee based on your Nadi Pariksha. Done after Abhyanga & Swedana for best results. Performed by trained male/female therapists under Vaidya supervision.</p>
+                <p className="text-sm mt-1"><span className="font-semibold">Duration:</span> 15-20 mins procedure | Course of 8, 15, or 30 days as advised</p>
+                <p className="text-sm mt-1 italic text-tertiary">Important: Always done after doctor consultation. Not advised in diarrhea, bleeding piles, or immediately after food.</p>
+              </div>
+              <div>
+                <strong className="text-lg text-tertiary">Niruha Basti</strong>
+                <p className="text-sm mb-2">Niruha Basti, also called Asthapana Basti, is a medicated decoction enema and a key part of Panchakarma. In this therapy, a large quantity of herbal decoction mixed with honey, salt, oils, and herbal paste is administered through the rectum. It does not stay inside — it cleanses by inducing proper elimination.</p>
+                <p className="text-sm"><span className="font-semibold">Best for:</span> Severe constipation, bloating, IBS, sciatica, paralysis, joint pain, obesity, neurological disorders, and high Vata conditions. Known as Ardha-Chikitsa — half the treatment for all Vata diseases.</p>
+                <div className="mt-2">
+                  <span className="font-semibold text-sm">Key Benefits at Brahmasutra Ayurveda:</span>
+                  <ul className="list-disc pl-5 text-sm space-y-1 mt-1">
+                    <li><span className="font-semibold">Deep Colon Detox:</span> Flushes out deep-seated toxins & metabolic waste</li>
+                    <li><span className="font-semibold">Reduces Pain & Stiffness:</span> Best for back pain, arthritis, and nerve issues</li>
+                    <li><span className="font-semibold">Improves Digestion & Metabolism:</span> Clears Ama, boosts Agni, aids weight loss</li>
+                    <li><span className="font-semibold">Balances Vata:</span> Calms anxiety, improves sleep, strengthens body</li>
+                  </ul>
+                </div>
+                <p className="text-sm mt-2"><span className="font-semibold">Our Method:</span> At Brahmasutra Ayurveda, we prepare fresh Dashmool or Erandamool decoction daily as per classical texts. Combined with Abhyanga & Swedana for maximum effect. Done under expert Vaidya supervision with complete hygiene.</p>
+                <p className="text-sm mt-1"><span className="font-semibold">Duration:</span> 30-40 mins procedure | Usually given in alternate cycles with Anuvasan Basti</p>
+                <p className="text-sm mt-1 italic text-tertiary">Important: Only done after proper doctor assessment. Avoid in weakness, diarrhea, or rectal bleeding.</p>
               </div>
               <div>
                 <strong className="text-lg text-tertiary">Nasya – Nasal Administration</strong>
@@ -67,13 +93,6 @@ export default function Services() {
                 <p className="text-sm"><span className="font-semibold">Process:</span> Instillation of medicated ghee/oil drops in nostrils</p>
                 <p className="text-sm"><span className="font-semibold">Duration:</span> 7-14 days</p>
                 <p className="text-sm"><span className="font-semibold">Benefits:</span> Clears sinuses, improves brain function, better sleep, reduces hair fall</p>
-              </div>
-              <div>
-                <strong className="text-lg text-tertiary">Raktamokshana – Bloodletting</strong>
-                <p className="text-sm"><span className="font-semibold">Best for:</span> Skin diseases, eczema, psoriasis, gout, hypertension</p>
-                <p className="text-sm"><span className="font-semibold">Process:</span> Removal of impure blood using leech therapy or other classical methods</p>
-                <p className="text-sm"><span className="font-semibold">Duration:</span> As per condition</p>
-                <p className="text-sm"><span className="font-semibold">Benefits:</span> Purifies blood, reduces inflammation, gives clear skin</p>
               </div>
             </div>
           </div>
@@ -135,7 +154,7 @@ export default function Services() {
             <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Choose Brahmasutra Ayurveda for Panchakarma?</h4>
             <ul className="list-disc pl-5 text-sm space-y-2">
               <li><strong className="text-tertiary">Authentic Classical Approach:</strong> As per Charak & Sushruta Samhita</li>
-              <li><strong className="text-tertiary">Expert Vaidyas:</strong> BAMS/MD Ayurveda doctors with 15+ years experience</li>
+              <li><strong className="text-tertiary">Expert Vaidyas:</strong> BAMS/MD Ayurveda doctors with 10+ years experience</li>
               <li><strong className="text-tertiary">Customized Plans:</strong> No one-size-fits-all. Treatment based on your Prakriti</li>
               <li><strong className="text-tertiary">Hygienic Setup:</strong> Clean, private therapy rooms with trained male/female therapists</li>
               <li><strong className="text-tertiary">Medicines:</strong> We use in-house prepared, pure herbal oils & medicines</li>
@@ -143,7 +162,7 @@ export default function Services() {
           </div>
 
           <div>
-            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">FAQ Section</h4>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">FAQ Section for Website</h4>
             <div className="space-y-4">
               <div>
                 <strong className="text-sm text-tertiary">Q1. Is Panchakarma painful?</strong>
@@ -154,13 +173,18 @@ export default function Services() {
                 <p className="text-sm">Minimum 7 days, ideal 14-21 days for full benefits. We also offer 3-day mini detox plans.</p>
               </div>
               <div>
-                <strong className="text-sm text-tertiary">Q3. Can I do it while working?</strong>
-                <p className="text-sm">Light work is okay, but rest is recommended. We have day-care & residential options.</p>
-              </div>
-              <div>
-                <strong className="text-sm text-tertiary">Q4. What diet should I follow?</strong>
+                <strong className="text-sm text-tertiary">Q3. What diet should I follow?</strong>
                 <p className="text-sm">Light, warm, freshly cooked food. No cold, junk, or heavy meals. We provide a diet chart.</p>
               </div>
+            </div>
+          </div>
+
+          <div className="mt-8 p-6 bg-primary-container rounded-xl text-on-primary-container text-center">
+            <h4 className="text-lg font-bold mb-2">Ready to Reset Your Health?</h4>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4 flex-wrap">
+              <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Consultation Call</a>
+              <a href="https://wa.me/919737370959?text=Panchakarma%20Package%20Details" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp Us for Package Details</a>
+              <a href="#" className="bg-tertiary text-on-tertiary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-tertiary/90 transition-colors">Download Panchakarma Brochure</a>
             </div>
           </div>
           
