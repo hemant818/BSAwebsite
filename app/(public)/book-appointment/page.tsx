@@ -121,7 +121,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
                   </div>
                 </div>
                 <h1 className="font-headline text-3xl font-bold text-on-surface mb-1">
-                  Book with Dr. Sushila Singh
+                  Book with Brahmasutra Ayurveda
                 </h1>
                 <p className="font-body text-on-surface-variant text-sm max-w-sm">
                   Fill in your details — your request will be sent directly to the doctor on WhatsApp for instant confirmation.
