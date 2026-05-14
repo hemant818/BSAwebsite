@@ -667,9 +667,81 @@ export default function Services() {
     },
     {
       title: "Raktamokshan",
-      desc: "A specific blood-letting para-surgical process used to purify blood and treat conditions like skin disorders, varicose veins, and localized inflammations through controlled therapeutic methods.",
+      desc: "Purify Your Blood, Heal Your Skin – Classical Bloodletting Therapy. Raktamokshan is the 5th Panchakarma therapy designed to remove impure, toxin-laden blood from the body. At Brahmasutra Ayurveda, we use safe, classical methods to treat chronic skin & blood disorders at the root.",
       icon: "bloodtype",
       image: "/raktamokshan.png",
+      detailedContent: (
+        <div className="space-y-6 text-on-surface">
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">What is Raktamokshan?</h4>
+            <p className="text-sm mb-4">Raktamokshan means "bloodletting" or "blood purification." When Pitta dosha and toxins — Rakta dushti — accumulate in blood, they cause skin diseases, inflammation, and heat-related disorders. This therapy removes small, controlled amounts of vitiated blood to cleanse the system.</p>
+            
+            <h5 className="text-lg font-bold text-tertiary mb-2">Methods We Use at Brahmasutra Ayurveda:</h5>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Jalaukavacharana – Leech Therapy:</strong> Most common & safest. Medicinal leeches suck only impure blood. Painless, best for skin diseases & local inflammation.</li>
+              <li><strong className="text-tertiary">Siravedha – Venesection:</strong> Small vein puncture for systemic blood purification. Done for severe Pitta disorders.</li>
+              <li><strong className="text-tertiary">Prachhanna:</strong> Multiple small pricks for localized blood issues like acne, boils.</li>
+            </ul>
+            <p className="text-sm mt-3 italic font-semibold">We select the method based on your disease, age, and Nadi Pariksha.</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Best For These Conditions:</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Skin Diseases:</strong> Psoriasis, eczema, urticaria, acne, vitiligo, fungal infections</li>
+              <li><strong className="text-tertiary">Blood Disorders:</strong> Gout, varicose veins, non-healing ulcers, abscess</li>
+              <li><strong className="text-tertiary">Pitta Disorders:</strong> Hypertension, chronic headaches, red eyes, burning sensation</li>
+              <li><strong className="text-tertiary">Liver Issues:</strong> As supportive therapy in fatty liver, jaundice</li>
+              <li><strong className="text-tertiary">Hair Problems:</strong> Alopecia areata, dandruff with inflammation</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Key Benefits:</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Clears Chronic Skin Issues:</strong> Removes root toxins causing recurring eczema/psoriasis</li>
+              <li><strong className="text-tertiary">Reduces Inflammation & Heat:</strong> Calms redness, burning, itching immediately</li>
+              <li><strong className="text-tertiary">Improves Complexion:</strong> Purifies blood for natural, healthy glow</li>
+              <li><strong className="text-tertiary">Prevents Recurrence:</strong> When combined with diet & herbs, gives long-term relief</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Our Safe Process at Brahmasutra Ayurveda:</h4>
+            <div className="space-y-3">
+              <p className="text-sm"><strong className="text-tertiary">Step 1: Vaidya Consultation</strong><br/>We check if Raktamokshan is suitable via Nadi Pariksha & blood reports</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 2: Preparation</strong><br/>Light diet, local Snehana-Swedana if needed</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 3: Procedure</strong><br/>Sterile, single-use equipment. Medicinal leeches from certified farms only. Painless & hygienic.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 4: Post Care</strong><br/>Turmeric dressing, herbal medicines, diet plan to build pure blood</p>
+            </div>
+            <div className="mt-4 p-3 bg-tertiary/10 rounded-lg border border-tertiary/20 text-sm">
+              <p><span className="font-semibold text-tertiary">Duration:</span> 30-60 mins per sitting | 3-7 sittings based on condition</p>
+              <p className="mt-1"><span className="font-semibold text-tertiary">Safety:</span> Done only by trained BAMS doctors. We never remove excess blood. No weakness if done correctly.</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Important Guidelines:</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Do Before:</strong> Come on light stomach. Avoid curd, fish, alcohol 2 days prior.</li>
+              <li><strong className="text-tertiary">Avoid If:</strong> Anemia, pregnancy, bleeding disorders, extreme weakness, children &lt;12 years</li>
+              <li><strong className="text-tertiary">After Care:</strong> Rest, avoid sun exposure, follow Pathya diet given by us</li>
+            </ul>
+          </div>
+
+          <div className="mt-8 p-6 bg-primary-container rounded-xl text-on-primary-container text-center">
+            <h4 className="text-lg font-bold mb-2">Suffering from Skin Issues That Don’t Go Away?</h4>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
+              <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Raktamokshan Consultation</a>
+              <a href="https://wa.me/919737370959?text=BLOOD%20PURIFY" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp: Send "BLOOD PURIFY" for details</a>
+            </div>
+          </div>
+          
+          <div className="mt-6 p-4 bg-tertiary/10 rounded-lg border border-tertiary/20">
+            <p className="text-sm italic text-center text-tertiary">Disclaimer: Raktamokshan is a medical procedure. It should only be done after proper Ayurvedic diagnosis and under qualified Vaidya supervision.</p>
+          </div>
+        </div>
+      )
     },
     {
       title: "Agnikarma",
