@@ -365,16 +365,7 @@ export default function Services() {
               <div>
                 <strong className="text-lg text-tertiary">Ayurvedic Therapeutic Yoga – 1-on-1 Healing Sessions</strong>
                 <p className="text-sm"><span className="font-semibold">For:</span> Back pain, Sciatica, Cervical, Arthritis, PCOS, Thyroid, Diabetes, Anxiety, Insomnia</p>
-                <p className="text-sm"><span className="font-semibold">How it works:</span> 45-min personal session. We combine asana + pranayama + marma points + meditation based on your Nadi Pariksha report.</p>
-                <p className="text-sm"><span className="font-semibold">Package:</span> 12 or 24 sessions | Online/At-Center in Ahmedabad</p>
-                <p className="text-sm"><span className="font-semibold">You get:</span> Home practice video + diet tips + monthly review with Vaidya</p>
-              </div>
-              <div>
-                <strong className="text-lg text-tertiary">Dosha-Balancing Group Batches</strong>
-                <p className="text-sm"><span className="font-semibold">Morning Batch:</span> 6:30 AM – 7:30 AM | Energizing for Kapha/Vata</p>
-                <p className="text-sm"><span className="font-semibold">Evening Batch:</span> 6:00 PM – 7:00 PM | Calming for Pitta/Stress</p>
-                <p className="text-sm"><span className="font-semibold">Ladies Special:</span> 11:00 AM | PCOS, prenatal, postnatal focus</p>
-                <p className="text-sm"><span className="font-semibold">Batch Size:</span> Only 8 people for personal attention</p>
+                <p className="text-sm mt-1"><span className="font-semibold">How it works:</span> 45-min personal session. We combine asana + pranayama + marma points + meditation based on your Nadi Pariksha report.</p>
               </div>
               <div>
                 <strong className="text-lg text-tertiary">Panchakarma Support Yoga</strong>
@@ -384,16 +375,13 @@ export default function Services() {
               </div>
               <div>
                 <strong className="text-lg text-tertiary">Corporate & Workplace Yoga</strong>
-                <p className="text-sm"><span className="font-semibold">For:</span> IT companies, banks, schools in Ahmedabad</p>
-                <p className="text-sm"><span className="font-semibold">Duration:</span> 30-min "Desk-De-Stress" sessions at your office</p>
                 <p className="text-sm"><span className="font-semibold">Focus:</span> Neck/back pain, eye strain, focus, team energy</p>
-                <p className="text-sm"><span className="font-semibold">Bonus:</span> We also conduct monthly "Ayurveda + Yoga" wellness talks</p>
+                <p className="text-sm mt-1"><span className="font-semibold">Bonus:</span> We also conduct monthly "Ayurveda + Yoga" wellness talks</p>
               </div>
               <div>
                 <strong className="text-lg text-tertiary">Pranayama & Meditation Intensive</strong>
                 <p className="text-sm"><span className="font-semibold">Learn:</span> Nadi Shodhana for anxiety, Bhramari for sleep, Kapalbhati for weight, Yoga Nidra for deep rest</p>
-                <p className="text-sm"><span className="font-semibold">Duration:</span> 10-day course | 30 mins daily</p>
-                <p className="text-sm"><span className="font-semibold">Best for:</span> Mental health, focus, high BP, students</p>
+                <p className="text-sm mt-1"><span className="font-semibold">Best for:</span> Mental health, focus, high BP, students</p>
               </div>
             </div>
           </div>
@@ -420,16 +408,6 @@ export default function Services() {
           </div>
 
           <div>
-            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Your Journey at Brahmasutra Yoga Shala</h4>
-            <div className="space-y-3">
-              <p className="text-sm"><strong className="text-tertiary">Step 1: Yoga + Ayurveda Assessment – 30 Mins</strong><br/>Meet our Vaidya & Yoga Acharya. We check your pulse, posture, medical history, and goals.</p>
-              <p className="text-sm"><strong className="text-tertiary">Step 2: Get Your Personal Yoga Chart</strong><br/>A printed + PDF sequence with pictures, duration, and precautions. No guesswork.</p>
-              <p className="text-sm"><strong className="text-tertiary">Step 3: Learn with Correction</strong><br/>We use props, touch, and verbal cues to ensure 0% injury. Even in groups.</p>
-              <p className="text-sm"><strong className="text-tertiary">Step 4: Practice & Review</strong><br/>Practice at home 4-5 days/week. Come for weekly review. We upgrade your sequence as you heal.</p>
-            </div>
-          </div>
-
-          <div>
             <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Ahmedabad Trusts Brahmasutra Ayurveda for Yoga</h4>
             <ul className="list-disc pl-5 text-sm space-y-2">
               <li><strong className="text-tertiary">Authentic Lineage:</strong> Classical Hatha + Ayurveda from Charak Samhita, not gym yoga</li>
@@ -439,28 +417,6 @@ export default function Services() {
               <li><strong className="text-tertiary">Transparent:</strong> No hidden charges. No forcing yearly memberships</li>
             </ul>
             <p className="text-xs mt-2 italic text-on-surface-variant">*Based on internal patient feedback 2025-2026</p>
-          </div>
-
-          <div>
-            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Class Timings & Fees</h4>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm text-left border-collapse">
-                <thead>
-                  <tr className="bg-primary/10">
-                    <th className="p-2 border border-primary/20">Service</th>
-                    <th className="p-2 border border-primary/20">Duration</th>
-                    <th className="p-2 border border-primary/20">Fee</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr><td className="p-2 border border-primary/20 font-medium">Trial Class</td><td className="p-2 border border-primary/20">45 mins</td><td className="p-2 border border-primary/20">₹299</td></tr>
-                  <tr><td className="p-2 border border-primary/20 font-medium">Personal Therapeutic</td><td className="p-2 border border-primary/20">60 mins</td><td className="p-2 border border-primary/20">₹1,200/session or ₹11,999/12 sessions</td></tr>
-                  <tr><td className="p-2 border border-primary/20 font-medium">Group Batch Monthly</td><td className="p-2 border border-primary/20">60 mins, 5 days/week</td><td className="p-2 border border-primary/20">₹2,499/month</td></tr>
-                  <tr><td className="p-2 border border-primary/20 font-medium">Online Personal</td><td className="p-2 border border-primary/20">45 mins</td><td className="p-2 border border-primary/20">₹999/session</td></tr>
-                  <tr><td className="p-2 border border-primary/20 font-medium">Corporate Session</td><td className="p-2 border border-primary/20">30 mins</td><td className="p-2 border border-primary/20">Quote on request</td></tr>
-                </tbody>
-              </table>
-            </div>
           </div>
 
           <div>
@@ -487,7 +443,7 @@ export default function Services() {
           
           <div className="mt-8 p-6 bg-primary-container rounded-xl text-on-primary-container text-center">
             <h4 className="text-lg font-bold mb-2">Brahmasutra Ayurveda – Yoga & Panchakarma Center</h4>
-            <p className="text-sm mb-1"><strong>Timings:</strong> 6:00 AM to 6:00 PM | Sunday Closed</p>
+            <p className="text-sm mb-1"><strong>Timings:</strong> 6:00 AM – 6:00 PM | Sunday Closed</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
               <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Your Trial Class Today →</a>
               <a href="https://wa.me/919737370959?text=YOGA" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp "YOGA" for Free Consultation</a>
