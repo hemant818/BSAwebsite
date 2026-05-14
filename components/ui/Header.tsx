@@ -20,7 +20,7 @@ export default function Header() {
     { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
     { label: "Services", href: "/services" },
-    { label: "Dr. Sushila Singh", href: "/doctor" },
+    { label: "Our Experts", href: "/experts" },
   ];
 
   return (
