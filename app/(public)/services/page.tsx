@@ -154,7 +154,7 @@ export default function Services() {
             <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Choose Brahmasutra Ayurveda for Panchakarma?</h4>
             <ul className="list-disc pl-5 text-sm space-y-2">
               <li><strong className="text-tertiary">Authentic Classical Approach:</strong> As per Charak & Sushruta Samhita</li>
-              <li><strong className="text-tertiary">Expert Vaidyas:</strong> BAMS/MD Ayurveda doctors with 10+ years experience</li>
+              <li><strong className="text-tertiary">Expert Vaidyas:</strong> BAMS/MD Ayurveda doctors with 15+ years experience</li>
               <li><strong className="text-tertiary">Customized Plans:</strong> No one-size-fits-all. Treatment based on your Prakriti</li>
               <li><strong className="text-tertiary">Hygienic Setup:</strong> Clean, private therapy rooms with trained male/female therapists</li>
               <li><strong className="text-tertiary">Medicines:</strong> We use in-house prepared, pure herbal oils & medicines</li>
@@ -487,7 +487,7 @@ export default function Services() {
           
           <div className="mt-8 p-6 bg-primary-container rounded-xl text-on-primary-container text-center">
             <h4 className="text-lg font-bold mb-2">Brahmasutra Ayurveda – Yoga & Panchakarma Center</h4>
-            <p className="text-sm mb-1"><strong>Timings:</strong> 6:00 AM – 8:00 PM | Sunday Closed</p>
+            <p className="text-sm mb-1"><strong>Timings:</strong> 6:00 AM to 6:00 PM | Sunday Closed</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
               <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Your Trial Class Today →</a>
               <a href="https://wa.me/919737370959?text=YOGA" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp "YOGA" for Free Consultation</a>
