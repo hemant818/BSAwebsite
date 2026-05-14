@@ -751,15 +751,239 @@ export default function Services() {
     },
     {
       title: "Viddhakarma",
-      desc: "A precise piercing or puncturing technique at specific therapeutic points on the body to release blocked energy, alleviate pain, and restore natural balance in affected areas.",
+      desc: "Precision Puncture Therapy – Ayurveda’s Needle-Free Acupuncture. Viddhakarma is one of the 8 types of Raktamokshan described in Sushruta Samhita. At Brahmasutra Ayurveda, we use this subtle puncture technique to release trapped Vata, pain, and toxins without medicines.",
       icon: "healing",
       image: "/viddhakarma.png",
+      detailedContent: (
+        <div className="space-y-6 text-on-surface">
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">What is Viddhakarma?</h4>
+            <p className="text-sm mb-3">Viddha means "to puncture" and Karma means "procedure." In Viddhakarma, specific Marma or Vedhya points are punctured using a sterile needle or specialized instrument to:</p>
+            <ul className="list-disc pl-5 text-sm space-y-1 mb-3">
+              <li>Release obstructed Vata causing pain and stiffness</li>
+              <li>Drain localized impure blood in cysts, boils, or swelling</li>
+              <li>Stimulate nerve points to restore function</li>
+            </ul>
+            <p className="text-sm italic font-semibold">Think of it as Ayurvedic acupuncture, but with a deeper diagnostic basis — we puncture only after Nadi Pariksha confirms which channel is blocked.</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Best For These Conditions at Brahmasutra Ayurveda:</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20 font-semibold">Condition</th>
+                    <th className="p-2 border border-primary/20 font-semibold">How Viddhakarma Helps</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Sciatica & Gridhrasi</strong></td><td className="p-2 border border-primary/20">Releases trapped Vata at specific points on buttock/leg</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Frozen Shoulder, Tennis Elbow</strong></td><td className="p-2 border border-primary/20">Reduces local inflammation & improves joint movement</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Headache, Migraine</strong></td><td className="p-2 border border-primary/20">Specific points on head/temple to release vascular spasm</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Cysts, Lipoma, Abscess</strong></td><td className="p-2 border border-primary/20">Drains impure blood/fluid accumulation safely</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Trigeminal Neuralgia</strong></td><td className="p-2 border border-primary/20">Stimulates facial nerve points to reduce electric-shock pain</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Heel Pain, Calcaneal Spur</strong></td><td className="p-2 border border-primary/20">Puncture at foot marma to release plantar Vata</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Choose Brahmasutra Ayurveda for Viddhakarma?</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Sushruta-Based Technique:</strong> Done exactly as per Vedhya Sira locations in classical texts</li>
+              <li><strong className="text-tertiary">Zero Medication Approach:</strong> Ideal for patients who can’t take painkillers or want drug-free relief</li>
+              <li><strong className="text-tertiary">Sterile & Painless:</strong> Single-use disposable needles, 27-30G ultra-fine. Most patients feel only a prick</li>
+              <li><strong className="text-tertiary">Vaidya-Performed Only:</strong> No therapists. Done personally by BAMS/MD doctors with marma expertise</li>
+              <li><strong className="text-tertiary">Instant Relief Cases:</strong> Many patients report 50-70% pain reduction in 1-2 sittings</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Our Viddhakarma Process – Step by Step</h4>
+            <div className="space-y-3">
+              <p className="text-sm"><strong className="text-tertiary">Step 1: Diagnosis</strong><br/>We locate the exact Vedhya point via Nadi, palpation, and your pain pattern</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 2: Preparation</strong><br/>Local Snehana-Swedana to relax the area + sterile cleaning</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 3: Puncture</strong><br/>Quick, precise puncture at calculated depth. Sometimes 1-2 drops of blood may ooze out — that’s the vitiated blood</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 4: Post Care</strong><br/>Turmeric/haridra dressing. No bandage needed usually. Avoid water for 2 hours.</p>
+            </div>
+            <div className="mt-4 p-3 bg-tertiary/10 rounded-lg border border-tertiary/20 text-sm">
+              <p><span className="font-semibold text-tertiary">Duration:</span> 10-15 mins | <span className="font-semibold text-tertiary">Sittings:</span> 1-5 based on chronicity | <span className="font-semibold text-tertiary">Fee:</span> ₹600 per sitting</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Viddhakarma vs Acupuncture vs Injection</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20 font-semibold text-tertiary">Viddhakarma</th>
+                    <th className="p-2 border border-primary/20 font-semibold text-tertiary">Acupuncture</th>
+                    <th className="p-2 border border-primary/20 font-semibold text-tertiary">Pain Injection</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20">Based on Ayurvedic marma & dosha</td><td className="p-2 border border-primary/20">Based on Chinese meridians</td><td className="p-2 border border-primary/20">Chemical drug delivery</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Releases vitiated blood/Vata</td><td className="p-2 border border-primary/20">Stimulates energy flow</td><td className="p-2 border border-primary/20">Blocks pain temporarily</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Root-cause approach</td><td className="p-2 border border-primary/20">Symptomatic</td><td className="p-2 border border-primary/20">Symptomatic</td></tr>
+                  <tr><td className="p-2 border border-primary/20">No medicine inside body</td><td className="p-2 border border-primary/20">No medicine</td><td className="p-2 border border-primary/20">Steroid/analgesic drugs</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Important Safety Notes:</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Avoid if:</strong> Bleeding disorders, on blood thinners, pregnancy, severe anemia, active infection at site</li>
+              <li><strong className="text-tertiary">After Care:</strong> Don’t lift heavy weight for 24 hrs. Report if excess bleeding — though rare</li>
+              <li><strong className="text-tertiary">Myth Buster:</strong> It’s NOT painful like an injection. The needle is thinner than insulin needle.</li>
+            </ul>
+          </div>
+          
+          <div className="mt-6 p-4 bg-tertiary/10 rounded-lg border border-tertiary/20">
+            <p className="text-sm italic text-center text-tertiary">Disclaimer: Viddhakarma is an Ayurvedic parasurgical procedure. Must be done only after proper diagnosis and by trained Ayurvedic physicians. Not a replacement for emergency care.</p>
+          </div>
+        </div>
+      )
     },
     {
       title: "Marma Therapy",
-      desc: "Therapeutic manipulation of 107 vital energy points (Marma) on the body to remove energy blockages, promote holistic well-being, and stimulate the body's natural healing mechanisms.",
+      desc: "Unlock Your Body’s 107 Healing Points – Ancient Science of Instant Relief. Marma Therapy is Ayurveda’s 5000-year-old secret for pain relief, energy flow, and deep healing. At Brahmasutra Ayurveda, we use precise touch, pressure, and oils on vital energy points to unblock your body’s natural pharmacy.",
       icon: "touch_app",
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800",
+      detailedContent: (
+        <div className="space-y-6 text-on-surface">
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">What is Marma Therapy?</h4>
+            <p className="text-sm mb-3">Marma points are vital energy junctions where muscles, veins, ligaments, bones, and joints meet. Described in Sushruta Samhita, these 107 points are the control switches of your body’s Prana – life force.</p>
+            <p className="text-sm mb-3">When Marma points get blocked due to injury, stress, or wrong posture, Vata gets trapped. Result: Pain, numbness, weakness, anxiety.</p>
+            <p className="text-sm mb-2">Marma Chikitsa gently stimulates these points using finger pressure, herbal oils, or Agnikarma to:</p>
+            <ul className="list-disc pl-5 text-sm space-y-1 mb-3">
+              <li><span className="font-semibold">Release Blocked Energy:</span> Like pressing a reset button for pain</li>
+              <li><span className="font-semibold">Improve Blood & Nerve Flow:</span> To organs, joints, and brain</li>
+              <li><span className="font-semibold">Balance Doshas Instantly:</span> Especially Vata disorders</li>
+              <li><span className="font-semibold">Activate Self-Healing:</span> Body starts repairing without heavy medicines</li>
+            </ul>
+            <p className="text-sm italic font-semibold">It’s not massage. It’s medical science. Used by warriors in ancient India to revive injured soldiers on battlefields.</p>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Conditions We Treat with Marma Therapy</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20 font-semibold">Body System</th>
+                    <th className="p-2 border border-primary/20 font-semibold">Conditions We Help</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Pain & Joints</strong></td><td className="p-2 border border-primary/20">Frozen shoulder, sciatica, cervical spondylitis, knee pain, tennis elbow, backache, arthritis</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Neurological</strong></td><td className="p-2 border border-primary/20">Paralysis, facial palsy, trigeminal neuralgia, migraine, vertigo, numbness in hands/feet</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Stress & Mind</strong></td><td className="p-2 border border-primary/20">Anxiety, depression, insomnia, panic attacks, brain fog, low energy</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Digestive</strong></td><td className="p-2 border border-primary/20">IBS, chronic constipation, acidity, bloating from stress</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Respiratory</strong></td><td className="p-2 border border-primary/20">Asthma, sinusitis, allergic rhinitis</td></tr>
+                  <tr><td className="p-2 border border-primary/20"><strong className="text-tertiary">Women’s Health</strong></td><td className="p-2 border border-primary/20">PCOS pain, menstrual cramps, menopausal joint pain</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Why Brahmasutra Ayurveda for Marma Therapy?</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Classical Marma Training:</strong> Our Vaidyas are trained in Marma Shastra as per Sushruta & Vagbhata. We know exact location, depth & angle for each of 107 points.</li>
+              <li><strong className="text-tertiary">Nadi + Marma Diagnosis:</strong> We don’t do random massage. First we check Nadi Pariksha to know which Marma is blocked for your disease.</li>
+              <li><strong className="text-tertiary">Medicated Oil Specific:</strong> Ksheerbala for nerve Marma, Dhanwantaram for joint Marma, Brahmi oil for head Marma – selected as per your condition.</li>
+              <li><strong className="text-tertiary">Safe & Non-Invasive:</strong> No needles, no machines, no side effects. Safe for elderly, children above 8 years.</li>
+              <li><strong className="text-tertiary">Instant Feedback Therapy:</strong> 70% patients feel change in pain, movement, or calmness in first session itself.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Our Marma Therapy Process – Step by Step</h4>
+            <div className="space-y-3">
+              <p className="text-sm"><strong className="text-tertiary">Step 1: Marma Assessment – 15 mins</strong><br/>We identify blocked Marma points via pulse, pain mapping, and posture analysis. Each disease has specific Marma keys.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 2: Preparation – Snehana & Swedana</strong><br/>Warm herbal oil application + light steam to open channels. Makes Marma points receptive.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 3: Marma Stimulation – 30-40 mins</strong><br/>Precise thumb/finger pressure, circular motions, or gentle tapping on points. Sequence is important – wrong order can aggravate Vata.</p>
+              <p className="text-sm"><strong className="text-tertiary">Step 4: Integration Rest</strong><br/>5 mins quiet rest with Shankhnaad or Om chanting to let Prana settle. Followed by herbal tea.</p>
+            </div>
+            <div className="mt-4 p-3 bg-tertiary/10 rounded-lg border border-tertiary/20 text-sm">
+              <p><span className="font-semibold text-tertiary">Duration:</span> 45-60 mins per session | <span className="font-semibold text-tertiary">Course:</span> 7, 14, or 21 days for chronic issues</p>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Types of Marma Therapy at Our Center</h4>
+            <ul className="list-disc pl-5 text-sm space-y-1">
+              <li><span className="font-semibold">Ruksha Marma:</span> Dry pressure for Kapha disorders, obesity, stiffness</li>
+              <li><span className="font-semibold">Snigdha Marma:</span> With warm oils for Vata pain, paralysis, dryness</li>
+              <li><span className="font-semibold">Agnikarma Marma:</span> Gentle heat on specific points for severe chronic pain</li>
+              <li><span className="font-semibold">Suchi Viddha Marma:</span> Ultra-fine needle touch on Marma for nerve issues</li>
+              <li><span className="font-semibold">Mukh Marma:</span> Facial Marma for stress, migraine, beauty & anti-aging</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Marma Therapy vs Physiotherapy vs Acupressure</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-primary/10">
+                    <th className="p-2 border border-primary/20 font-semibold text-tertiary">Marma Chikitsa</th>
+                    <th className="p-2 border border-primary/20 font-semibold text-tertiary">Physiotherapy</th>
+                    <th className="p-2 border border-primary/20 font-semibold text-tertiary">Acupressure</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td className="p-2 border border-primary/20">Based on 107 vital points + dosha</td><td className="p-2 border border-primary/20">Based on muscle & joint anatomy</td><td className="p-2 border border-primary/20">Based on Chinese points</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Releases Prana blockage</td><td className="p-2 border border-primary/20">Strengthens muscles</td><td className="p-2 border border-primary/20">Stimulates energy meridians</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Root-cause for Vata disorders</td><td className="p-2 border border-primary/20">Rehabilitation focus</td><td className="p-2 border border-primary/20">Symptomatic relief</td></tr>
+                  <tr><td className="p-2 border border-primary/20">Uses medicated oils + mantra</td><td className="p-2 border border-primary/20">Uses machines, exercises</td><td className="p-2 border border-primary/20">Dry pressure mostly</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">Important Guidelines</h4>
+            <ul className="list-disc pl-5 text-sm space-y-2">
+              <li><strong className="text-tertiary">Best Time:</strong> Morning empty stomach or 3 hrs after food</li>
+              <li><strong className="text-tertiary">Avoid If:</strong> Fever, acute infection, pregnancy first trimester, open wounds, immediately after heavy meal</li>
+              <li><strong className="text-tertiary">After Session:</strong> No AC/cold wind for 1 hour. Drink warm water. Rest for 30 mins.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-xl font-bold text-primary mb-4 border-b border-primary/20 pb-2">FAQs</h4>
+            <div className="space-y-4">
+              <div>
+                <strong className="text-sm text-tertiary">Q1. Is Marma Therapy painful?</strong>
+                <p className="text-sm">No. It’s gentle pressure. You may feel tender points – those are blocked Marmas. Pain reduces as we release them.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q2. How is it different from massage?</strong>
+                <p className="text-sm">Massage works on muscles. Marma works on Prana points that control muscles, nerves & organs. 1 Marma point can relieve entire leg pain.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q3. Can it cure paralysis?</strong>
+                <p className="text-sm">In early stages, Marma + Basti + herbs give excellent results. We’ve helped many stroke patients regain movement. Chronic cases need longer therapy.</p>
+              </div>
+              <div>
+                <strong className="text-sm text-tertiary">Q4. Do you teach Marma for self-use?</strong>
+                <p className="text-sm">Yes. After 7 sessions, we teach 3-4 safe Marma points for your daily home practice.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-6 p-4 bg-tertiary/10 rounded-lg border border-tertiary/20">
+            <p className="text-sm italic text-center text-tertiary">Disclaimer: Marma Therapy is a specialized Ayurvedic procedure. Should be performed only by trained Vaidyas. Not a replacement for emergency medical care</p>
+          </div>
+        </div>
+      )
     },
   ];
 
