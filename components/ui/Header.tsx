@@ -33,7 +33,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2.5">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo.jpg" alt="Brahmasutra Ayurveda Logo" width={48} height={48} className="object-contain rounded-sm" />
-          <span className="font-headline text-2xl font-bold italic text-primary">Brahmasutra Ayurveda</span>
+          <span className="font-headline text-2xl font-bold text-primary">Brahmasutra Ayurveda</span>
         </Link>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
