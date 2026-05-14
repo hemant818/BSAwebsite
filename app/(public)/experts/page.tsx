@@ -184,6 +184,135 @@ export default function ExpertsPage() {
         </div>
       </section>
 
+      {/* Profile Section for Dr. Saumitri Tripathi */}
+      <section className="py-24 bg-surface-container-low border-y border-outline-variant/10">
+        <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+          {/* Left: Photo */}
+          <motion.div 
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="lg:col-span-4 relative group"
+          >
+            <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-xl bg-surface-container sticky top-24 border border-outline-variant/20">
+              {/* Photo placeholder until provided */}
+              <div className="w-full h-full bg-surface-variant/30 flex flex-col items-center justify-center text-on-surface-variant/50">
+                <span className="material-symbols-outlined text-6xl mb-4">person</span>
+                <p className="font-medium text-sm">Photo coming soon</p>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Right: Credentials & Bio */}
+          <motion.div 
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="lg:col-span-8 space-y-10"
+          >
+            <div>
+              <motion.span 
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="inline-block px-4 py-1 rounded-full bg-tertiary/10 text-tertiary text-xs font-bold tracking-widest mb-4"
+              >
+                SENIOR CONSULTANT
+              </motion.span>
+              <h2 className="font-headline text-3xl md:text-5xl font-bold text-on-background mb-2">Dr. Saumitri Tripathi</h2>
+              <p className="text-xl text-primary font-semibold mb-6">
+                BAMS, CRAV, MD – Ayurveda<br/>
+                <span className="text-on-surface-variant text-lg font-normal">Senior Consultant – Ayurvedic Herbal Medicine & Rasayana Chikitsa</span>
+              </p>
+              <div className="h-1 w-24 bg-primary rounded-full mb-8"></div>
+              
+              <div className="prose prose-lg text-on-surface-variant max-w-none">
+                <p className="font-medium text-on-surface text-xl mb-8 leading-relaxed border-l-4 border-tertiary pl-6 py-4 bg-tertiary/5 rounded-r-xl">
+                  With 15+ years of specialized clinical experience, Dr. Saumitri Tripathi is a renowned Ayurvedic physician dedicated to managing complex cancer support care, neuromuscular, autoimmune, metabolic, and lifestyle disorders exclusively through classical Ayurvedic herbal combinations and Rasayana therapy.
+                </p>
+
+                <div className="space-y-12">
+                  <div>
+                    <h3 className="text-2xl font-headline font-bold text-on-surface flex items-center gap-3 mb-4">
+                      <span className="material-symbols-outlined text-primary text-3xl">school</span>
+                      Academic & Clinical Credentials
+                    </h3>
+                    <p className="leading-relaxed">
+                      A BAMS graduate and MD in Ayurveda, Dr. Tripathi holds CRAV certification in Rasayana & Vajikarana, giving him advanced expertise in immunity-building and tissue-rejuvenation herbal protocols. His practice focuses on evidence-informed Shamana Chikitsa — pacifying disease through precision herbal medicine without Panchakarma detox.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-headline font-bold text-on-surface flex items-center gap-3 mb-4">
+                      <span className="material-symbols-outlined text-primary text-3xl">local_pharmacy</span>
+                      Core Expertise – Through Herbal Combinations Only
+                    </h3>
+                    <p className="mb-6 leading-relaxed">
+                      Dr. Tripathi is trusted by patients who cannot undergo Panchakarma or prefer medicine-based management. His key focus areas include:
+                    </p>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none pl-0">
+                      <li className="bg-surface p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:shadow-md transition-shadow">
+                        <strong className="block text-primary mb-2 text-lg">Ayurvedic Cancer Support Care</strong>
+                        <span className="text-sm leading-relaxed block">Herbal formulations to reduce chemo/radiation side effects, improve appetite, manage fatigue, and support Ojas during recovery</span>
+                      </li>
+                      <li className="bg-surface p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:shadow-md transition-shadow">
+                        <strong className="block text-primary mb-2 text-lg">Neuromuscular Disorders</strong>
+                        <span className="text-sm leading-relaxed block">Custom Rasayana combinations for MS, MND, Muscular Dystrophy, Paralysis, and Diabetic Neuropathy</span>
+                      </li>
+                      <li className="bg-surface p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:shadow-md transition-shadow">
+                        <strong className="block text-primary mb-2 text-lg">Autoimmune Conditions</strong>
+                        <span className="text-sm leading-relaxed block">Herb-based immune modulation for Rheumatoid Arthritis, Psoriasis, Ulcerative Colitis, SLE, Hashimoto’s</span>
+                      </li>
+                      <li className="bg-surface p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:shadow-md transition-shadow">
+                        <strong className="block text-primary mb-2 text-lg">Metabolic & Lifestyle Disorders</strong>
+                        <span className="text-sm leading-relaxed block">Multi-herb protocols for uncontrolled Diabetes, PCOS, Obesity, Fatty Liver, Hypertension</span>
+                      </li>
+                      <li className="bg-surface p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:shadow-md transition-shadow md:col-span-2">
+                        <strong className="block text-primary mb-2 text-lg">Long-Term Rasayana Plans</strong>
+                        <span className="text-sm leading-relaxed block">Age-specific, disease-specific herbal rejuvenation to prevent relapse and improve quality of life</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-primary/5 p-8 rounded-3xl border-l-4 border-primary">
+                    <h3 className="text-xl font-headline font-bold text-primary flex items-center gap-3 mb-4">
+                      <span className="material-symbols-outlined text-2xl">psychology</span>
+                      Treatment Philosophy
+                    </h3>
+                    <p className="italic font-medium text-lg text-on-surface mb-4">
+                      "Not every patient needs Panchakarma. But every patient needs the right herb, in the right dose, at the right time."
+                    </p>
+                    <p className="leading-relaxed">
+                      Dr. Tripathi uses Nadi Pariksha and modern reports to design personalized herbal stacks. He ensures zero herb-drug interaction and works alongside your oncologist/neurologist for safe integration.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-2xl font-headline font-bold text-on-surface flex items-center gap-3 mb-4">
+                      <span className="material-symbols-outlined text-primary text-3xl">verified_user</span>
+                      Why Patients Choose Dr. Tripathi
+                    </h3>
+                    <ul className="list-none pl-0 space-y-3">
+                      <li className="flex items-start gap-3">
+                        <span className="material-symbols-outlined text-tertiary mt-1">check_circle</span>
+                        <span className="text-on-surface-variant leading-relaxed">For elderly, weak, or working professionals who can’t take time for Panchakarma</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="material-symbols-outlined text-tertiary mt-1">check_circle</span>
+                        <span className="text-on-surface-variant leading-relaxed">For long-term, sustainable management with tablets/kwath/churna</span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <span className="material-symbols-outlined text-tertiary mt-1">check_circle</span>
+                        <span className="text-on-surface-variant leading-relaxed">For clear guidance on diet, timing, and anupana for maximum herb absorption</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Introduction Video Section */}
       <section className="py-24 max-w-7xl mx-auto px-8">
         <div className="text-center mb-12">
