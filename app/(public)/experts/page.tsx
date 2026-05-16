@@ -97,7 +97,7 @@ export default function ExpertsPage() {
                       Academic Excellence
                     </h3>
                     <p className="leading-relaxed">
-                      A gold-medalist BAMS graduate, Dr. Sushila holds an MD in Panchakarma, mastering classical Shodhana, Rasayana, and Vajeekarana therapies. Her CRAV certification in Rasayana & Vajikarana strengthens her expertise in anti-aging, immunity, and Saundarya – Ayurvedic aesthetics. As a PhD Scholar, she is researching evidence-based Panchakarma protocols for metabolic, degenerative, and dermatological disorders.
+                      A gold-medalist BAMS graduate, Dr. Sushila holds an MD in Panchakarma, mastering classical Shodhana and Rasayana. Her CRAV certification in Kayachikitsa strengthens her expertise in Metabolic, Lifestyle, Autoimmune, Digenrative  and other Chronic pain disorders. As a PhD Scholar, she is researching evidence-based Panchakarma protocols for metabolic and degenerative. 
                     </p>
                   </div>
 
@@ -107,7 +107,7 @@ export default function ExpertsPage() {
                       Clinical Expertise
                     </h3>
                     <p className="mb-6 leading-relaxed">
-                      Dr. Sushila is renowned for her integrative, stage-wise approach combining Nadi Pariksha, Marma Chikitsa, Panchakarma, and Herbal Dermatology for cases where modern medicine offers limited solutions. Her core specialties include:
+                      Dr. Sushila is renowned for her integrative, stage-wise approach combining Nadi Pariksha, Marma Chikitsa, Panchakarma, and Herbal Combination for cases where modern medicine offers limited solutions. Her core specialties include:
                     </p>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none pl-0">
                       <li className="bg-surface-container-low p-5 rounded-2xl border border-outline-variant/20 shadow-sm hover:shadow-md transition-shadow">
@@ -150,7 +150,7 @@ export default function ExpertsPage() {
                       "True beauty is the reflection of pure blood and balanced doshas. Panchakarma doesn’t just treat disease — it reveals your natural Prabha."
                     </p>
                     <p className="leading-relaxed">
-                      Every patient at Brahmasutra Ayurveda receives a Prakriti-Vikriti based, multi-phase plan combining Shodhana, Shamana, Rasayana, Varnya herbs, and lifestyle correction.
+                      Every patient at Brahmasutra Ayurveda receives a Prakriti-Vikriti based, multi-phase plan combining Shodhana, Shamana, Rasayana, Varnya herbs, and lifestyle correction.There is no disease that can not be treated by panch karma
                     </p>
                   </div>
 
@@ -160,7 +160,7 @@ export default function ExpertsPage() {
                       Beyond the Clinic
                     </h3>
                     <p className="leading-relaxed">
-                      Dr. Sushila mentors BAMS doctors in advanced Panchakarma for oncology, neuro, and dermatology cases. She conducts Geriatric Wellness & Ayurvedic Beauty Camps and has presented research on "Panchakarma in Autoimmune & Dermatological Reversal" at national seminars.
+                      Dr. Sushila mentors BAMS doctors in advanced Panchakarma for oncology, neuromusculoskeletal, and dermatology cases. She conducts Geriatric Wellness & Ayurvedic Lifestyle education to childrens in schools .
                     </p>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ export default function ExpertsPage() {
                       Academic & Clinical Credentials
                     </h3>
                     <p className="leading-relaxed">
-                      A BAMS graduate and MD in Ayurveda, Dr. Tripathi holds CRAV certification in Rasayana & Vajikarana, giving him advanced expertise in immunity-building and tissue-rejuvenation herbal protocols. His practice focuses on evidence-informed Shamana Chikitsa — pacifying disease through precision herbal medicine without Panchakarma detox.
+                      A BAMS graduate and MD in Ayurveda, Dr. Tripathi holds CRAV certification in cancer care through Ayurveda Herbal combination and Rasayana therapy .  His practice focuses on evidence-informed Shamana Chikitsa — pacifying disease through precision herbal medicine without Panchakarma detox.his experties are in combination ayurvedic medicien with modern specific view on Oncology,Lifestyle,Autoimmune and Metabolic disorders. Along with this he have done Masters deiploma in alternative medicine and honoury PhD in Chiropractic care.
                     </p>
                   </div>
 
@@ -279,7 +279,7 @@ export default function ExpertsPage() {
                       Treatment Philosophy
                     </h3>
                     <p className="italic font-medium text-lg text-on-surface mb-4">
-                      "Not every patient needs Panchakarma. But every patient needs the right herb, in the right dose, at the right time."
+                      " Every patient needs the right herb, in the right dose, at the right time."
                     </p>
                     <p className="leading-relaxed">
                       Dr. Tripathi uses Nadi Pariksha and modern reports to design personalized herbal stacks. He ensures zero herb-drug interaction and works alongside your oncologist/neurologist for safe integration.
