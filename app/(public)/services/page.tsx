@@ -183,7 +183,7 @@ export default function Services() {
             <h4 className="text-lg font-bold mb-2">Ready to Reset Your Health?</h4>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4 flex-wrap">
               <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Consultation Call</a>
-              <a href="https://wa.me/919737370959?text=Panchakarma%20Package%20Details" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp Us for Package Details</a>
+              <a href="https://wa.me/919510250323?text=Panchakarma%20Package%20Details" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp Us for Package Details</a>
               <a href="#" className="bg-tertiary text-on-tertiary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-tertiary/90 transition-colors">Download Panchakarma Brochure</a>
             </div>
           </div>
@@ -446,7 +446,7 @@ export default function Services() {
             <p className="text-sm mb-1"><strong>Timings:</strong> 6:00 AM – 6:00 PM | Sunday Closed</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
               <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Your Trial Class Today →</a>
-              <a href="https://wa.me/919737370959?text=YOGA" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp "YOGA" for Free Consultation</a>
+              <a href="https://wa.me/919510250323?text=YOGA" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp "YOGA" for Free Consultation</a>
             </div>
           </div>
 
@@ -689,7 +689,7 @@ export default function Services() {
             <h4 className="text-lg font-bold mb-2">Suffering from Skin Issues That Don’t Go Away?</h4>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-4">
               <a href="/book-appointment" className="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold shadow-md hover:bg-primary/90 transition-colors">Book Raktamokshan Consultation</a>
-              <a href="https://wa.me/919737370959?text=BLOOD%20PURIFY" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp: Send "BLOOD PURIFY" for details</a>
+              <a href="https://wa.me/919510250323?text=BLOOD%20PURIFY" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-6 py-2 rounded-lg font-bold shadow-md hover:bg-[#20b858] transition-colors flex items-center justify-center gap-2"><span className="material-symbols-outlined text-[20px]">forum</span> WhatsApp: Send "BLOOD PURIFY" for details</a>
             </div>
           </div>
           
@@ -1062,7 +1062,7 @@ export default function Services() {
               Book Your Consultation
             </Link>
             <a
-              href="https://wa.me/919737370959?text=Hello%20Dr.%20Sushila%20Singh,%20I'd%20like%20to%20know%20more%20about%20your%20services."
+              href="https://wa.me/919510250323?text=Hello%20Dr.%20Sushila%20Singh,%20I'd%20like%20to%20know%20more%20about%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-surface/10 backdrop-blur-md border border-surface/20 text-on-primary px-8 py-4 rounded-xl font-bold hover:bg-surface/20 transition-all flex items-center justify-center gap-2"
