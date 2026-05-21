@@ -91,7 +91,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-center gap-2 flex-wrap">
           <span className="material-symbols-outlined text-sm">verified_user</span>
           <p className="font-body text-sm font-medium tracking-wide">
-            All appointment requests go directly to Dr. Sushila Singh via WhatsApp for instant confirmation.
+            All appointment requests go directly to our team via WhatsApp for instant confirmation.
           </p>
         </div>
       </div>
@@ -273,7 +273,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
               <div className="space-y-5">
                 {[
                   { step: "1", icon: "edit_note", title: "Fill the Form", desc: "Enter your name, health concern, and preferred date & time." },
-                  { step: "2", icon: "send", title: "Send on WhatsApp", desc: "Your details are sent directly to Dr. Sushila Singh's WhatsApp." },
+                  { step: "2", icon: "send", title: "Send on WhatsApp", desc: "Your details are sent directly to our team's WhatsApp." },
                   { step: "3", icon: "check_circle", title: "Get Confirmed", desc: "The doctor confirms your slot and you're all set!" },
                 ].map((s) => (
                   <div key={s.step} className="flex gap-4 items-start">
@@ -290,7 +290,7 @@ _Please confirm this appointment at your earliest. Thank you!_`;
 
               {/* Direct WhatsApp button */}
               <a
-                href={`https://wa.me/${DOCTOR_WHATSAPP}?text=${encodeURIComponent("Hello Dr. Sushila Singh, I would like to book an appointment. Please guide me.")}`}
+                href={`https://wa.me/${DOCTOR_WHATSAPP}?text=${encodeURIComponent("Hello Brahmasutra Ayurveda, I would like to book an appointment. Please guide me.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full bg-surface text-primary border border-primary/30 py-3 rounded-xl font-semibold text-sm hover:bg-primary/5 transition-colors"

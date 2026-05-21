@@ -71,7 +71,7 @@ export default function Home() {
                 whileTap={{ scale: 0.97 }}
                 className="bg-surface-container-high hover:bg-surface-container-highest text-primary border border-outline-variant px-8 py-4 rounded-xl font-bold flex items-center gap-2 transition-all"
               >
-                Chat with Dr. Sushila Singh
+                Chat with Brahmasutra Ayurveda
                 <span className="material-symbols-outlined pb-1">chat</span>
               </motion.button>
             </Link>
@@ -318,7 +318,7 @@ export default function Home() {
                 whileTap={{ scale: 0.97 }}
                 className="bg-tertiary-container hover:bg-tertiary-fixed text-on-tertiary-fixed px-10 py-5 rounded-xl font-bold flex items-center gap-3 transition-all shadow-xl"
               >
-                Consult with Dr. Sushila Singh
+                Consult with Brahmasutra Ayurveda
                 <span className="material-symbols-outlined pb-1">arrow_forward</span>
               </motion.button>
             </Link>

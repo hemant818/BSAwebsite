@@ -1052,7 +1052,7 @@ export default function Services() {
             Ready to Begin Your Healing Journey?
           </h2>
           <p className="text-on-primary/80 text-lg mb-10 max-w-2xl mx-auto">
-            Consult with Dr. Sushila Singh to design a personalized wellness blueprint that honors your nature.
+            Consult with Brahmasutra Ayurveda to design a personalized wellness blueprint that honors your nature.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link
@@ -1062,7 +1062,7 @@ export default function Services() {
               Book Your Consultation
             </Link>
             <a
-              href="https://wa.me/919510250323?text=Hello%20Dr.%20Sushila%20Singh,%20I'd%20like%20to%20know%20more%20about%20your%20services."
+              href="https://wa.me/919510250323?text=Hello%20Brahmasutra%20Ayurveda,%20I'd%20like%20to%20know%20more%20about%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="bg-surface/10 backdrop-blur-md border border-surface/20 text-on-primary px-8 py-4 rounded-xl font-bold hover:bg-surface/20 transition-all flex items-center justify-center gap-2"

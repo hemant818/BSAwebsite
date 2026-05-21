@@ -21,7 +21,7 @@ export default function Footer() {
             </p>
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/919510250323?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Sushila%20Singh."
+              href="https://wa.me/919510250323?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Brahmasutra%20Ayurveda."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#128C7E] transition-colors"
@@ -107,7 +107,7 @@ export default function Footer() {
               <p><strong>2. Information Collection</strong><br/>We may collect personal details, medical history, and contact information necessary to provide you with tailored Ayurvedic treatments and consultations.</p>
               <p><strong>3. Use of Information</strong><br/>Your information is strictly used for medical assessment, treatment planning, and appointment scheduling. We do not sell or share your data with third parties without your explicit consent.</p>
               <p><strong>4. Patient Confidentiality</strong><br/>All consultations and records are kept strictly confidential. Our center employs standard security measures to protect your data from unauthorized access.</p>
-              <p><strong>5. Terms of Service</strong><br/>Ayurvedic treatments provided are complementary to general healthcare. Our recommendations are personalized and should be followed as prescribed by Dr. Sushila Singh.</p>
+              <p><strong>5. Terms of Service</strong><br/>Ayurvedic treatments provided are complementary to general healthcare. Our recommendations are personalized and should be followed as prescribed by our experts.</p>
             </div>
             <div className="mt-8 flex justify-end">
               <button onClick={() => setIsPrivacyOpen(false)} className="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-bold hover:bg-primary-container transition-colors shadow-sm">

@@ -69,7 +69,7 @@ export default async function AppointmentSuccessPage({ params }: { params: { id:
             </div>
           ) : (
             <div className="pt-2 text-sm text-on-surface-variant">
-              <p>Please save your Booking ID above. Dr. Sushila Singh will confirm your appointment shortly.</p>
+              <p>Please save your Booking ID above. Our team will confirm your appointment shortly.</p>
             </div>
           )}
 
@@ -82,8 +82,8 @@ export default async function AppointmentSuccessPage({ params }: { params: { id:
         </div>
 
         <p className="text-sm text-on-surface-variant mb-8 leading-relaxed">
-          Dr. Sushila Singh will review your request and confirm via WhatsApp / call at the earliest.
-          For urgent queries, contact: <strong>+91 98765 43210</strong>
+          Our team will review your request and confirm via WhatsApp / call at the earliest.
+          For urgent queries, contact: <strong>+91 95102 50323</strong>
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">

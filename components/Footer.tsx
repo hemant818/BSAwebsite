@@ -26,7 +26,7 @@ export function Footer() {
           </p>
           {/* WhatsApp CTA */}
           <a
-            href="https://wa.me/919510250323?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Dr.%20Sushila%20Singh."
+            href="https://wa.me/919510250323?text=Hello%2C%20I%20would%20like%20to%20book%20an%20appointment%20with%20Brahmasutra%20Ayurveda."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] text-white px-4 py-2.5 rounded-lg font-semibold text-sm hover:bg-[#128C7E] transition-colors"
